@@ -51,7 +51,7 @@ categories:
  <em>price.keys</em> will get you an array of all the keys in hash
  price.
 
- <strong>Hash#each, map, inject</strong>
+ <strong>Hash#each, map</strong><p>
  You can iterate over a Hash using Hash#each method. It is similar to
  Array#each method but passes two values to the block parameters, the
  key and the value of each element.
