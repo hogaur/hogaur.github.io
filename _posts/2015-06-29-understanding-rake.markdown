@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding Rake Tasks"
-date:   2015-06-16
+date:   2015-06-29
 categories:
 ---
 <body>
