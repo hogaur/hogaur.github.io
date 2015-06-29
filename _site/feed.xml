@@ -2,19 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hari Om Gaur</title>
-    <description>IIT Jodhpur alumnus, coder by profession, musician-writer at heart.
+    <description>IIT Jodhpur alumnus, coder by profession, musician-writer at heart. I write about my experieces with life, code and musical notes.
 </description>
     <link>http://hogaur.github.io/</link>
     <atom:link href="http://hogaur.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jun 2015 01:10:39 +0530</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2015 01:10:39 +0530</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2015 23:55:16 +0530</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2015 23:55:16 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Programming in Ruby- Part I</title>
+        <title>Understanding Rake Tasks</title>
         <description>&lt;body&gt;
-&lt;h4&gt; Understanding Gems and folder structure for Ruby projects&lt;/h4&gt;
+&lt;p&gt;
+In your RAILS project working directory, when you type &lt;em&gt;rake routes&lt;/em&gt; it
+lists all the routes you made in your application. This &lt;em&gt;rake routes&lt;/em&gt; is a &#39;rake&#39; &lt;em&gt;task&lt;/em&gt; which is specified to list all routes in an application. Also there is a task &lt;em&gt;rake db:migrate&lt;/em&gt; that runs your migrations. There are many tasks available to you, and they all can be listed using &lt;em&gt;rake -T&lt;/em&gt;. But you are not restricted to the tasks listed in &lt;em&gt;rake -T&lt;/em&gt; only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
+&lt;/p&gt;
+&lt;p&gt;
+Rake is ruby make. It replaces Unix make and use Rakefile and .rake
+files to build up a list of tasks. If you are following the lib-spec folder
+structure we talked about in my last blog, you can simply add a Rakefile
+in your project folder and there you can add your custom rake tasks. If you are
+working with RAILS, your tasks are stored in /lib/tasks folder.
+&lt;/p&gt;
+&lt;p&gt;
+You can simply write, in your Rakefile
 
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:sing&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Sa Re Ga Ma Pa...&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Or you can generate a Rake task by typing
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_task1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_task2&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_namespace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+For a sample Rakefile with a simple rake task is visit this &lt;a href=&quot;https://github.com/hogaur/Line&quot;&gt;repo&lt;/a&gt;
+&lt;/p&gt;
+
+
+
+&lt;/body&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2015 00:00:00 +0530</pubDate>
+        <link>http://hogaur.github.io/2015/06/16/understanding-rake.html</link>
+        <guid isPermaLink="true">http://hogaur.github.io/2015/06/16/understanding-rake.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Understanding Gems and folder structure for Ruby Projects</title>
+        <description>&lt;body&gt;
 &lt;p&gt;
 Everything is an object in ruby and thus visualising everything as an
 object and modeling your problem based on the principles of Object
@@ -115,8 +157,8 @@ problem in next blog. Till then,
 &lt;/body&gt;
 </description>
         <pubDate>Mon, 15 Jun 2015 00:00:00 +0530</pubDate>
-        <link>http://hogaur.github.io/2015/06/15/programming-in-ruby.html</link>
-        <guid isPermaLink="true">http://hogaur.github.io/2015/06/15/programming-in-ruby.html</guid>
+        <link>http://hogaur.github.io/2015/06/15/understanding-gems-and-folder-structure.html</link>
+        <guid isPermaLink="true">http://hogaur.github.io/2015/06/15/understanding-gems-and-folder-structure.html</guid>
         
         
       </item>

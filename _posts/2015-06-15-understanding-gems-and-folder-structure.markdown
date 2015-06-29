@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Programming in Ruby- Part I"
+title:  "Understanding Gems and folder structure for Ruby Projects"
 date:   2015-06-15
 categories:
 ---
 <body>
-<h4> Understanding Gems and folder structure for Ruby projects</h4>
-
 <p>
 Everything is an object in ruby and thus visualising everything as an
 object and modeling your problem based on the principles of Object

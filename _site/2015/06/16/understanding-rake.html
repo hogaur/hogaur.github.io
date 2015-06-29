@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="IIT Jodhpur alumnus, coder by profession, musician-writer at heart. I write about my experieces with life, code and musical notes.
-">
+  <title>Understanding Rake Tasks</title>
+  <meta name="description" content="In your RAILS project working directory, when you type rake routes itlists all the routes you made in your application. This rake routes is a 'rake' task whi...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://hogaur.github.io/about/">
+  <link rel="canonical" href="http://hogaur.github.io/2015/06/16/understanding-rake.html">
   <link rel="alternate" type="application/rss+xml" title="Hari Om Gaur" href="http://hogaur.github.io/feed.xml" />
 </head>
 
@@ -58,14 +57,45 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Understanding Rake Tasks</h1>
+    <p class="post-meta">Jun 16, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>Born and brought up in Bikaner, RJ, IND. 
-Passionate about music. Love exploring different genres.<br />
-Work at Codeignition.co</p>
+    <body>
+<p>
+In your RAILS project working directory, when you type <em>rake routes</em> it
+lists all the routes you made in your application. This <em>rake routes</em> is a 'rake' <em>task</em> which is specified to list all routes in an application. Also there is a task <em>rake db:migrate</em> that runs your migrations. There are many tasks available to you, and they all can be listed using <em>rake -T</em>. But you are not restricted to the tasks listed in <em>rake -T</em> only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
+</p>
+<p>
+Rake is ruby make. It replaces Unix make and use Rakefile and .rake
+files to build up a list of tasks. If you are following the lib-spec folder
+structure we talked about in my last blog, you can simply add a Rakefile
+in your project folder and there you can add your custom rake tasks. If you are
+working with RAILS, your tasks are stored in /lib/tasks folder.
+</p>
+<p>
+You can simply write, in your Rakefile
 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">task</span> <span class="ss">:sing</span> <span class="k">do</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Sa Re Ga Ma Pa...&quot;</span>
+<span class="k">end</span></code></pre></div>
+
+</p>
+<p>
+Or you can generate a Rake task by typing
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">rails</span> <span class="n">g</span> <span class="n">task</span> <span class="n">my_namespace</span> <span class="n">my_task1</span> <span class="n">my_task2</span>
+<span class="err">$</span> <span class="n">create</span> <span class="n">lib</span><span class="o">/</span><span class="n">tasks</span><span class="o">/</span><span class="n">my_namespace</span><span class="o">.</span><span class="n">rake</span></code></pre></div>
+
+</p>
+<p>
+For a sample Rakefile with a simple rake task is visit this <a href="https://github.com/hogaur/Line">repo</a>
+</p>
+
+
+
+</body>
 
   </article>
 
