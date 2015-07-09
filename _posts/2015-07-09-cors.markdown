@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A fluky walk with CORS"
+title:  "Understanding CORS"
 date:   2015-07-09
 categories:
 ---
