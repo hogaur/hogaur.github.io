@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Hari Om Gaur</title>
-    <description>IIT Jodhpur alumnus, coder by profession, musician-writer at heart. I write about my experieces with life, code and musical notes.
-</description>
-    <link>http://hogaur.github.io/</link>
-    <atom:link href="http://hogaur.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jun 2015 23:55:16 +0530</pubDate>
-    <lastBuildDate>Mon, 29 Jun 2015 23:55:16 +0530</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <description>Life Music &amp; Code</description>
+    <link>http://hariomgaur.in</link>
+    <atom:link href="http://hariomgaur.in/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Understanding Rake Tasks</title>
-        <description>&lt;body&gt;
+        <title>Rake Tasks</title>
+        
+        
+          <description>&lt;p&gt;&lt;body&gt;
 &lt;p&gt;
 In your RAILS project working directory, when you type &lt;em&gt;rake routes&lt;/em&gt; it
-lists all the routes you made in your application. This &lt;em&gt;rake routes&lt;/em&gt; is a &#39;rake&#39; &lt;em&gt;task&lt;/em&gt; which is specified to list all routes in an application. Also there is a task &lt;em&gt;rake db:migrate&lt;/em&gt; that runs your migrations. There are many tasks available to you, and they all can be listed using &lt;em&gt;rake -T&lt;/em&gt;. But you are not restricted to the tasks listed in &lt;em&gt;rake -T&lt;/em&gt; only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
+lists all the routes you made in your application. This &lt;em&gt;rake routes&lt;/em&gt; is a &amp;#39;rake&amp;#39; &lt;em&gt;task&lt;/em&gt; which is specified to list all routes in an application. Also there is a task &lt;em&gt;rake db:migrate&lt;/em&gt; that runs your migrations. There are many tasks available to you, and they all can be listed using &lt;em&gt;rake -T&lt;/em&gt;. But you are not restricted to the tasks listed in &lt;em&gt;rake -T&lt;/em&gt; only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
 &lt;/p&gt;
 &lt;p&gt;
 Rake is ruby make. It replaces Unix make and use Rakefile and .rake
@@ -25,38 +23,37 @@ in your project folder and there you can add your custom rake tasks. If you are
 working with RAILS, your tasks are stored in /lib/tasks folder.
 &lt;/p&gt;
 &lt;p&gt;
-You can simply write, in your Rakefile
+You can simply write, in your Rakefile&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:sing&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Sa Re Ga Ma Pa...&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;
-Or you can generate a Rake task by typing
+Or you can generate a Rake task by typing&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_task1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_task2&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tasks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_namespace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;
 For a sample Rakefile with a simple rake task is visit this &lt;a href=&quot;https://github.com/hogaur/Line&quot;&gt;repo&lt;/a&gt;
-&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;
 
-
-
-&lt;/body&gt;
+&lt;p&gt;&lt;/body&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 16 Jun 2015 00:00:00 +0530</pubDate>
-        <link>http://hogaur.github.io/2015/06/16/understanding-rake.html</link>
-        <guid isPermaLink="true">http://hogaur.github.io/2015/06/16/understanding-rake.html</guid>
         
-        
+        <pubDate>Mon, 29 Jun 2015 00:00:00 +0530</pubDate>
+        <link>http://hariomgaur.in/understanding-rake-tasks/</link>
+        <guid isPermaLink="true">http://hariomgaur.in/understanding-rake-tasks/</guid>
       </item>
     
       <item>
-        <title>Understanding Gems and folder structure for Ruby Projects</title>
-        <description>&lt;body&gt;
+        <title>Gems and folder structure for Ruby Projects</title>
+        
+        
+          <description>&lt;p&gt;&lt;body&gt;
 &lt;p&gt;
 Everything is an object in ruby and thus visualising everything as an
 object and modeling your problem based on the principles of Object
@@ -65,176 +62,44 @@ Oriented Programming (OOP) becomes very important. During my second week at
 everyday to understand some OOP principles such as inheritance,
 namespacing and method overriding. Thanks to our mentor, &lt;a href=&quot;http://www.sinisterlight.com&quot;&gt;Shobhit Srivastava&lt;/a&gt;, some software
 engineering skills always step in to show us the beauty of this world in
-bright sunlight and this time they were-&lt;br /&gt;
-- Test Driven Development, lovingly known as TDD,&lt;br /&gt;
-- Don&#39;t Repeat Yourself, the DRY principle and &lt;br /&gt; 
-- Pair programming.&lt;/p&gt;
-
-&lt;p&gt;
-The basic problem given to us was- &lt;br /&gt;
-&lt;em&gt;Problem&lt;/em&gt; - Coordinates of two points are given, return length of line segment formed by the points.
-&lt;/p&gt;
-
-&lt;p&gt;
-Simple! Isn&#39;t it? Solution to above problem will be a Line class which have attributes start_point and
-end_point and a method length which gives distance between these two points. We can implement above class either based on the assumption that coordinates of these two points are given to us in the form of two arrays, i.e. [x1,y1],[x2,y2] or that we are given coordinates as x1,y1,x2,y2.&lt;/p&gt;
-&lt;p&gt;
-Now, one could argue that Points are separate identities themselves and
-the method Line#length does nothing but returns distance between two
-instances of Point class. So our solution can be refactored to add Point
-class with attributes x_coordinate, y_coordinate and a class method
-distance_between point1, point2.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;h4&gt;Writing Ruby code- The conventions!&lt;/h4&gt;
-One can make any number of classes in a single ruby file, write logic in
-this file and get it executed. But such code is hard to understand and tough to debug. 
-Thus, we have conventions. When everybody follows some conventions, all our folder
-structures are alike, which in turn makes collaborated works easy.
-&lt;/p&gt;
-&lt;p&gt;
-An easy to maintain, clear folder structure for Ruby projects is-&lt;br /&gt;
-|_lib/&lt;br /&gt;
-|_spec/&lt;br /&gt;
-|_Gemfile&lt;br /&gt;
-|_Gemfile.lock&lt;br /&gt;
-|_Rakefile
-&lt;/p&gt;
-&lt;p&gt;
-All our classes and modules that means functionality goes in lib folder.
-That means if we want to make a class named Line for our given problem,
-it goes in Line.rb file in lib folder. Class names in ruby are
-conventionally written in CamelCase while method names are written in
-snake_case. Conventionally one file has one class. So lib folder will
-contain two files Line.rb and Point.rb as per the solution discussed above.
-&lt;/p&gt;
-Now, while working on any project in any programming language, we should
-always follow Test Driven Developement(TDD) approach. When our projects
-grow bigger, our code base increases, the specs we had written for each
-small unit of our code are our only friends in debugging. If you are new
-to TDD and don&#39;t see any benefit for why you should follow TDD, visit my
-friend Debashish&#39;s &lt;a href=&quot;http://wallydrag.github.io/test%20driven%20development/tdd/2015/05/26/ruby/&quot;&gt;blog&lt;/a&gt; here.
-&lt;br /&gt;
-So all our specs go in spec folder. We write one spec file for each ruby
-class file as classname_spec.rb in spec folder.
-&lt;br /&gt;&lt;br /&gt;
-&lt;em&gt;Gems&lt;/em&gt;&lt;br /&gt;
-There are many libraries available for testing in ruby. One of the ones
-that has gained popularity and use is RSpec. To use RSpec, we write a
-Gemfile for our project. Gemfile is the place where we write all our
-dependencies for the project. A sample Gemfile, one for our current
-project will be -
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;https://rubygems.org&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rspec&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-When we write 
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-Bundler looks up to the source &quot;http://rubygems.org&quot; for the gems we declared. We can
-mention multiple sources and bundler will look up in those sources in
-order. Bundler installs specified versions of gems if mentioned and
-latest stable realeases of gems if versions are not specified.
-
-&lt;br /&gt;
-&lt;p&gt;
-After running &lt;em&gt;bundle install&lt;/em&gt;, a &lt;em&gt;Gemfile.lock&lt;/em&gt; file is
-created in current directory. This file is the place where Bundler
-records the exact versions of gems that were installed. In this way, it
-is ensured that when we install the dependencies on some other machine
-for the same project, bundler will look into Gemfile.lock file for the
-versions of gems to be installed rather than installing latest stable
-releases of all the gems.
-&lt;/p&gt;
-&lt;p&gt;
-This way gemfile and bundler manage our dependencies. And folder
-structure keeps our code clean and more readable. We will look into rake
-tasks and an extended exercise on Object Oriented Design based on our
-problem in next blog. Till then, 
-&lt;em&gt;Carpe Diem!&lt;/em&gt;
-&lt;/p&gt;
-&lt;/body&gt;
+bright sunlight and this time they were-&lt;br&gt;
+- Test Driven Development, lovingly known as TDD,&lt;br&gt;
+- Don&amp;#39;t Repeat Yourself, the DRY principle and &lt;br&gt; 
+- Pair programming.&lt;/p&gt;&lt;/p&gt;
 </description>
+        
         <pubDate>Mon, 15 Jun 2015 00:00:00 +0530</pubDate>
-        <link>http://hogaur.github.io/2015/06/15/understanding-gems-and-folder-structure.html</link>
-        <guid isPermaLink="true">http://hogaur.github.io/2015/06/15/understanding-gems-and-folder-structure.html</guid>
-        
-        
+        <link>http://hariomgaur.in/understanding-gems-and-folder-structure/</link>
+        <guid isPermaLink="true">http://hariomgaur.in/understanding-gems-and-folder-structure/</guid>
       </item>
     
       <item>
         <title>Ruby Hashes</title>
-        <description>&lt;p&gt;
+        
+        
+          <description>&lt;p&gt;&lt;p&gt;
 A hash is a dictionary like collection of unique keys and their values.
 Hashes also called Associative arrays, are similar to arrays in the way
 that arrays use integers as their keys (array indexes). A hash allows
-you to use any objects as keys.
-
-Declaring a blank hash is as simple as writing -
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;hash_map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-A Hash can also be created using the method Hash#new-
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;hash_map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-A hash key-value pair can have any object as its key. e.g. price and
-volume below, use objects of class String and Symbol respectively and
-both are valid hashes-
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;pepsi&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;cola&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;amul&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;volume&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:pepsi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;330&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:cola&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;330&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:amul&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-In fact, a hash can have different object types as its keys. e.g.
-a_hash below is a valid hash too-
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a_hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:a_symbol&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;symbol it is&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;a_string&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;string it is&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-In case you want to access a key that has not been added to a hash, a
-&lt;em&gt;default value&lt;/em&gt; is returned. If default is not set, &lt;em&gt;nil&lt;/em&gt;
-is returned. You can set the default value by passing it as an argument
-to &lt;em&gt;new&lt;/em&gt; or calling the &lt;em&gt;Hash#default&lt;/em&gt; method - 
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-Fetching values from a Hash and modifying it- you can fetch values from
-a Hash by putting the key name in square bracket after the Hash name.
-And just in case you want to modify them, writing the new value in
-front of the above is enough.
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:pepsi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt;fetches value corresponding to key :pepsi i.e. 10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:pepsi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; assigns the value 20 to the key :pepsi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-If you want to list down all the keys in a Hash, 
-&lt;em&gt;price.keys&lt;/em&gt; will get you an array of all the keys in hash
-price.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Hash#each, map&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-You can iterate over a Hash using &lt;em&gt;Hash#each&lt;/em&gt; method. It is similar to
-&lt;em&gt;Array#each&lt;/em&gt; method but passes two values to the block parameters, the
-key and the value of each element.
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Price of &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;em&gt;Hash#map&lt;/em&gt; iterates over a Hash and returns an array with result of
-running block for each element of Hash.
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;pepsi&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;cola&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;amul&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;price&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_sym&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; [[:pepsi,&amp;quot;10&amp;quot;], [:cola, &amp;quot;10&amp;quot;], [:amul, &amp;quot;20&amp;quot;]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/p&gt;
+you to use any objects as keys.&lt;/p&gt;
 </description>
+        
         <pubDate>Fri, 29 May 2015 00:41:11 +0530</pubDate>
-        <link>http://hogaur.github.io/2015/05/29/ruby-hash.html</link>
-        <guid isPermaLink="true">http://hogaur.github.io/2015/05/29/ruby-hash.html</guid>
+        <link>http://hariomgaur.in/ruby-hash/</link>
+        <guid isPermaLink="true">http://hariomgaur.in/ruby-hash/</guid>
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
         
         
+          <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 10 Nov 2013 15:48:00 +0530</pubDate>
+        <link>http://hariomgaur.in/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://hariomgaur.in/welcome-to-jekyll/</guid>
       </item>
     
   </channel>

@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Understanding Gems and folder structure for Ruby Projects"
+title:  "Gems and folder structure for Ruby Projects"
 date:   2015-06-15
 categories:
+section: 'Code'
+description: 'Some ice-breaking with ruby project structure'
 ---
 <body>
 <p>

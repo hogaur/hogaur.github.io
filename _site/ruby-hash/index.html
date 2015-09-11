@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hari Om Gaur - Ruby Hashes</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+            <a href="/about">About </a>
+        
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Ruby Hashes</h1>
+        <h2 class="headline">May 29, 2015</h2>
+    </header>
+    <section id="post-body">
+        <p>
+A hash is a dictionary like collection of unique keys and their values.
+Hashes also called Associative arrays, are similar to arrays in the way
+that arrays use integers as their keys (array indexes). A hash allows
+you to use any objects as keys.
+
+Declaring a blank hash is as simple as writing -
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">hash_map</span><span class="o">=</span><span class="p">{}</span></code></pre></div>
+
+A Hash can also be created using the method Hash#new-
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">hash_map</span><span class="o">=</span><span class="no">Hash</span><span class="o">.</span><span class="n">new</span></code></pre></div>
+
+A hash key-value pair can have any object as its key. e.g. price and
+volume below, use objects of class String and Symbol respectively and
+both are valid hashes-
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">price</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;pepsi&quot;</span><span class="o">=&gt;</span><span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;cola&quot;</span><span class="o">=&gt;</span><span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;amul&quot;</span><span class="o">=&gt;</span><span class="mi">20</span><span class="p">}</span>
+<span class="n">volume</span> <span class="o">=</span> <span class="p">{</span><span class="ss">:pepsi</span><span class="o">=&gt;</span><span class="mi">330</span><span class="p">,</span> <span class="ss">:cola</span><span class="o">=&gt;</span><span class="mi">330</span><span class="p">,</span> <span class="ss">:amul</span><span class="o">=&gt;</span><span class="mi">200</span><span class="p">}</span></code></pre></div>
+
+In fact, a hash can have different object types as its keys. e.g.
+a_hash below is a valid hash too-
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a_hash</span> <span class="o">=</span> <span class="p">{</span><span class="ss">:a_symbol</span> <span class="o">=&gt;</span> <span class="s2">&quot;symbol it is&quot;</span><span class="p">,</span> <span class="s2">&quot;a_string&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;string it is&quot;</span><span class="p">}</span></code></pre></div>
+
+In case you want to access a key that has not been added to a hash, a
+<em>default value</em> is returned. If default is not set, <em>nil</em>
+is returned. You can set the default value by passing it as an argument
+to <em>new</em> or calling the <em>Hash#default</em> method - 
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">price</span> <span class="o">=</span> <span class="no">Hash</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">price</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="mi">0</span></code></pre></div>
+
+Fetching values from a Hash and modifying it- you can fetch values from
+a Hash by putting the key name in square bracket after the Hash name.
+And just in case you want to modify them, writing the new value in
+front of the above is enough.
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">price</span><span class="o">[</span><span class="ss">:pepsi</span><span class="o">]</span> <span class="c1">#=&gt;fetches value corresponding to key :pepsi i.e. 10</span>
+<span class="n">price</span><span class="o">[</span><span class="ss">:pepsi</span><span class="o">]</span> <span class="o">=</span> <span class="mi">20</span> <span class="c1">#=&gt; assigns the value 20 to the key :pepsi</span></code></pre></div>
+
+If you want to list down all the keys in a Hash, 
+<em>price.keys</em> will get you an array of all the keys in hash
+price.
+</p>
+
+<p><strong>Hash#each, map</strong>
+<p>
+You can iterate over a Hash using <em>Hash#each</em> method. It is similar to
+<em>Array#each</em> method but passes two values to the block parameters, the
+key and the value of each element.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">price</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="o">|</span>
+<span class="nb">puts</span> <span class="s2">&quot;Price of </span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2"> is </span><span class="si">#{</span><span class="n">value</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="k">end</span></code></pre></div>
+
+<p><em>Hash#map</em> iterates over a Hash and returns an array with result of
+running block for each element of Hash.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">price</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;pepsi&quot;</span> <span class="o">=&gt;</span> <span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;cola&quot;</span> <span class="o">=&gt;</span> <span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;amul&quot;</span> <span class="o">=&gt;</span> <span class="mi">20</span><span class="p">}</span>
+<span class="n">price</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span><span class="o">|</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="o">|</span> <span class="o">[</span><span class="n">key</span><span class="o">.</span><span class="n">to_sym</span> <span class="p">,</span> <span class="n">value</span><span class="o">.</span><span class="n">to_s</span> <span class="o">]</span> <span class="p">}</span>
+<span class="c1">#=&gt; [[:pepsi,&quot;10&quot;], [:cola, &quot;10&quot;], [:amul, &quot;20&quot;]]</span></code></pre></div>
+
+<p></p></p>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/@hogaur">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Hari Om Gaur</span>
+            <span>Life Music & Code</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://hariomgaur.in/ruby-hash/ - Ruby Hashes by @@hogaur"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+
+<!-- Archive post list -->
+
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        
+            <li>
+                <a href="/understanding-rake-tasks/">Rake Tasks<aside class="dates">Jun 29</aside></a>
+            </li>
+        
+            <li>
+                <a href="/understanding-gems-and-folder-structure/">Gems and folder structure for Ruby Projects<aside class="dates">Jun 15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/ruby-hash/">Ruby Hashes<aside class="dates">May 29</aside></a>
+            </li>
+        
+            <li>
+                <a href="/welcome-to-jekyll/">Welcome to Jekyll!<aside class="dates">Nov 10</aside></a>
+            </li>
+        
+    </ul>
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67482601-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+
+

@@ -1,14 +1,42 @@
-# Site settings
-title: Hari Om Gaur
-email: hogaur@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    IIT Jodhpur alumnus,
-    coder by profession,
-    musician-writer at heart. I write about my experieces with life, code and musical notes.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hogaur.github.io" # the base hostname & protocol for your site
-twitter_username: hogaur
-github_username:  hogaur
+name: Hari Om Gaur
+description: 'Life Music & Code'
+meta_description: "Writing about my experiences of the journey."
+sections: ['Life', 'Music', 'Code']
+aboutPage: true
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://hariomgaur.in'
+google_analytics: 'UA-67482601-1'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://hariomgaur.in'
+author:         'Hari Om Gaur'
+authorTwitter:  '@hogaur'
+
+permalink:       /:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post

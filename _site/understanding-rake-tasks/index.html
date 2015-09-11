@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hari Om Gaur - Rake Tasks</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+            <a href="/about">About </a>
+        
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Rake Tasks</h1>
+        <h2 class="headline">June 29, 2015</h2>
+    </header>
+    <section id="post-body">
+        <p><body>
+<p>
+In your RAILS project working directory, when you type <em>rake routes</em> it
+lists all the routes you made in your application. This <em>rake routes</em> is a &#39;rake&#39; <em>task</em> which is specified to list all routes in an application. Also there is a task <em>rake db:migrate</em> that runs your migrations. There are many tasks available to you, and they all can be listed using <em>rake -T</em>. But you are not restricted to the tasks listed in <em>rake -T</em> only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
+</p>
+<p>
+Rake is ruby make. It replaces Unix make and use Rakefile and .rake
+files to build up a list of tasks. If you are following the lib-spec folder
+structure we talked about in my last blog, you can simply add a Rakefile
+in your project folder and there you can add your custom rake tasks. If you are
+working with RAILS, your tasks are stored in /lib/tasks folder.
+</p>
+<p>
+You can simply write, in your Rakefile</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">task</span> <span class="ss">:sing</span> <span class="k">do</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Sa Re Ga Ma Pa...&quot;</span>
+<span class="k">end</span></code></pre></div>
+
+<p></p>
+<p>
+Or you can generate a Rake task by typing</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">rails</span> <span class="n">g</span> <span class="n">task</span> <span class="n">my_namespace</span> <span class="n">my_task1</span> <span class="n">my_task2</span>
+<span class="err">$</span> <span class="n">create</span> <span class="n">lib</span><span class="o">/</span><span class="n">tasks</span><span class="o">/</span><span class="n">my_namespace</span><span class="o">.</span><span class="n">rake</span></code></pre></div>
+
+<p></p>
+<p>
+For a sample Rakefile with a simple rake task is visit this <a href="https://github.com/hogaur/Line">repo</a>
+</p></p>
+
+<p></body></p>
+
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/@hogaur">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Hari Om Gaur</span>
+            <span>Life Music & Code</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://hariomgaur.in/understanding-rake-tasks/ - Rake Tasks by @@hogaur"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+
+<!-- Archive post list -->
+
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        
+            <li>
+                <a href="/understanding-rake-tasks/">Rake Tasks<aside class="dates">Jun 29</aside></a>
+            </li>
+        
+            <li>
+                <a href="/understanding-gems-and-folder-structure/">Gems and folder structure for Ruby Projects<aside class="dates">Jun 15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/ruby-hash/">Ruby Hashes<aside class="dates">May 29</aside></a>
+            </li>
+        
+            <li>
+                <a href="/welcome-to-jekyll/">Welcome to Jekyll!<aside class="dates">Nov 10</aside></a>
+            </li>
+        
+    </ul>
+
+
+
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67482601-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+
+
