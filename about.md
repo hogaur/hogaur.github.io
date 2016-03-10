@@ -16,5 +16,26 @@ During college I used to performed with a five-piece band. We wrote
 a few compositions but we mostly covered other artists. I write often, mostly in Hindi. I find great depth in the writings of Ghalib. His works continue to surprise me till
 this very day.
 
-
+<center>
+<div>
+न था कुछ तो खुदा था कुछ न होता तो खुदा होता 
+<br>
+<br>
+डुबोया मुझको होने ने, न होता मैं तो क्या होता
+<br>
+<br>
+~ ग़ालिब 
+</div>
+<br>
+In nothingness God was there, if naught he would persist
+<br>
+<br>
+Existence has sunk me, what loss, if I didn't exist
+<br>
+<br>
+~ Ghalib
+<br>
+<br>
+(Translation courtesy - <a href="rekhta.org" target="_blank">Rekhta.org</a>)
+</center>
 {% include footer.html %}
