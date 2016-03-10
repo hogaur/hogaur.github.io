@@ -6,6 +6,7 @@ categories:
 section: 'Life'
 description: 'बहुत ज्यादा हो, तू क्या तब ही मानेगा'
 ---
+<center>
 <div>
 रुक दो पल बहुत हुआ अब
 <br>
@@ -45,3 +46,4 @@ description: 'बहुत ज्यादा हो, तू क्या तब
 <br>
 ये आज न कल फिर आएगा
 </div>
+</center>
