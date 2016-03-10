@@ -19,7 +19,7 @@ url:            'http://hariomgaur.in'
 author:         'Hari Om Gaur'
 authorTwitter:  '@hogaur'
 
-permalink:       /:title/
+permalink:       /blog/:year/:month/:day/:title/
 
 defaults:
     -
