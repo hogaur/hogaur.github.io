@@ -1,4 +1,10 @@
-name: Hari Om Gaur
+name: HariOm
+tagline: 'Experience joy in the journey'
+author:
+  name: Hari Om Gaur
+  email: hogaur@gmail.com
+  github: hogaur
+  twitter: hogaur
 description: 'Life Music & Code'
 meta_description: "Writing about my experiences of the journey."
 sections: ['Life', 'Music', 'Code']
