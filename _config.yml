@@ -10,7 +10,7 @@ meta_description: "Writing about my experiences of the journey."
 sections: ['Life', 'Music', 'Code']
 aboutPage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 paginate: 20
