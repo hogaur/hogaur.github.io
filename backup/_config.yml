@@ -18,7 +18,6 @@ baseurl: /
 domain_name: 'http://hariomgaur.in'
 google_analytics: 'UA-67482601-1'
 disqus: false
-disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'http://hariomgaur.in'
@@ -26,6 +25,8 @@ author:         'Hari Om Gaur'
 authorTwitter:  '@hogaur'
 
 permalink:       /blog/:year/:month/:day/:title/
+
+theme: jekyll-theme-console
 
 defaults:
     -
