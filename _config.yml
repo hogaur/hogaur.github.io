@@ -8,6 +8,7 @@ baseurl: ""
 url: "hariomgaur.in"
 twitter_username: hogaur
 github_username:  hogaur
+google_analytics: 'UA-67482601-1'
 
 theme: minima
 plugins:
