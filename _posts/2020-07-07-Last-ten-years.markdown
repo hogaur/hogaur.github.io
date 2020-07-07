@@ -40,6 +40,9 @@ I continue to aspire to learn the breadth and depth of Software Engineering. At 
 
 Things I couldn't do
 I could become financially wise this last decade. I wish my younger self knew a few things. Few things that I could take care of in advance so that my future half faces less pain. Few of them are very personal. For example, my spend increases with my income, and I am never on top of my finances. This is something I seriously want to change in this upcoming decade. I want to earn an income apart from my salary. I want to put my money into a cause than just keep spending it on riches. 
+I wish I understood the importance of learning to cook earlier in my life. I wish the younger me had focused a little bit into the kitchen along with the books, sports, and TV.
+I hardly played any sport in one last decade. I wish I change this to say I play consistently when I write something like this the next time.
+
 
 I didn't learn to drive or swim. I want to get comfortable with these two. 
 
