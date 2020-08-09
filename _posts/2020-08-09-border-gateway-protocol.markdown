@@ -73,6 +73,8 @@ got much work done because we had covered much ground the day before. All in all
 
 That's it for this time, folks. See you around soon.
 
+![](ciao.gif)
+
 ### References
 1. [A Border Gateway Protocol 4 (BGP-4, rfc4271)](https://tools.ietf.org/html/rfc4271)
 2. [Setting up HAVPN tunnels between two Google Cloud VPCs](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn2)
