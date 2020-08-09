@@ -11,9 +11,12 @@ This blog post is a story of a weekend I spent learning and understanding the [B
 routers to discover routes from each other automatically. And a little understanding of which comes pretty handy while setting HAVPN tunnels on Google Cloud Platform.
 
 ### Background
+
 Last year I picked up a project that got me to work with Mrityunjoy Chattopadhyay, aka Joy. He recently had joined the company and brought a vast amount of industry and networking experience to the table. I am glad I got this opportunity.
 
 This weekend was during the pre-COVID era when we used to go to the office to work. We don't usually do that, working on the weekends. That particular weekend, Joy and I decided to come in and get some significant unblocking done for the current project.
+
+![](working-on-weekends-be-like.gif)
 
 We were setting up a [Shared VPC network](https://cloud.google.com/vpc/docs/shared-vpc) that will be used
 to serve production traffic. It will be run in parallel to our current
