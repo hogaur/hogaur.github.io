@@ -15,9 +15,15 @@ This is a step-by-step tutorial to help you discover Clojure idioms in your term
 
 First things first, let's get some basic stuff setup. If you are on a Mac, you can do this by simply running the following command in your terminal.
 
- `brew install clojure`
+ `brew install clojure/tools/clojure`
 
-This will install the Clojure programming language for you. Try running it in your terminal, and you will see that it also installs OpenJDK. Wait, but why?
+This will install the Clojure command line tools for you. After running this on your machine, you should be able to use `clj` to fire up the Clojure REPL in your machine.
+
+```clojure
+~ > clj
+user=>
+ ```
+This step assumes that `java` command is available on the path. Clojure needs java. Wait, but why?
 
 Clojure is an open-sourced, dynamic, general-purpose programming language. Rich Hickey created Clojure during his sabbatical while living on his retirement savings. He is considered BDFL (Benevolent dictator for life) for the Clojure community. Like Linus for linux, Matt for ruby etc.
 
