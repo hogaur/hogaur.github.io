@@ -6,10 +6,13 @@ categories:
 section: 'Code'
 description: 'How to write a custom rake task'
 ---
+*Understanding rake tasks and how to write a custom rake task*
+
 <body>
 <p>
 In your RAILS project working directory, when you type <em>rake routes</em> it
-lists all the routes you made in your application. This <em>rake routes</em> is a 'rake' <em>task</em> which is specified to list all routes in an application. Also there is a task <em>rake db:migrate</em> that runs your migrations. There are many tasks available to you, and they all can be listed using <em>rake -T</em>. But you are not restricted to the tasks listed in <em>rake -T</em> only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
+lists all the routes you made in your application. This <em>rake routes</em> is a 'rake' <em>task</em> 
+which is specified to list all routes in an application. Also there is a task <em>rake db:migrate</em> that runs your migrations. There are many tasks available to you, and they all can be listed using <em>rake -T</em>. But you are not restricted to the tasks listed in <em>rake -T</em> only. You can write your own custom rake tasks also. They will do mundane as well as hefty tasks you will ask them to do for you. But then, how to?
 </p>
 <p>
 Rake is ruby make. It replaces Unix make and use Rakefile and .rake

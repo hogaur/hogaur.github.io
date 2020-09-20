@@ -6,8 +6,11 @@ categories:
 section: 'Code'
 description: 'Hash as in dictionary like collection of keys-value pairs'
 ---
+*A hash
+is a dictionary like collection of unique keys and their
+values.*
+
 <p>
-A hash is a dictionary like collection of unique keys and their values.
 Hashes also called Associative arrays, are similar to arrays in the way
 that arrays use integers as their keys (array indexes). A hash allows
 you to use any objects as keys.

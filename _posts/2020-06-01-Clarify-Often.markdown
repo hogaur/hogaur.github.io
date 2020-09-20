@@ -4,8 +4,10 @@ title:  Clarify Often
 date:   2020-06-01
 categories:
 section: 'Life'
-description: ''
+description: 'Repeat that Narrative'
 ---
+*The one about repeating that Narrative*
+
 <center>
 <div>
 Let that thought sink in

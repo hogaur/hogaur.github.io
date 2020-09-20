@@ -4,8 +4,10 @@ title:  Keep Going
 date:   2020-08-04
 categories:
 section: 'Life'
-description: ''
+description: 'Know that no path is great, And keep going'
 ---
+*Know that no path is great, And keep going*
+
 <center>
 <div>
 If you ever start wondering,

@@ -6,6 +6,7 @@ categories:
 section: 'Music'
 description: 'With Ustaad Zakir Hussain and Niladri Kumar'
 ---
+*With Ustaad Zakir Hussain and Niladri Kumar*
 
 I attended a live concert of Ustad Zakir Hussain and Niladri Kumar some time back and it was amazing. When I booked ticket for the event I expected that Niladri Kumar would perform with Sitar-func and Ustaad ji would give a solo performance but it was my great fortune that they performed a duet.
 

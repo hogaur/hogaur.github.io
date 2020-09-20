@@ -6,6 +6,7 @@ categories:
 section: 'Life'
 description: 'Lessons from the book - Radical Candor'
 ---
+*Lessons from the book - Radical Candor*
 
 4 am
 ---

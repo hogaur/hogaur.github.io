@@ -6,11 +6,16 @@ categories:
 section: 'Code'
 description: 'Some ice-breaking with ruby project structure'
 ---
+*Aimed at ice-breaking with ruby project structure*
+
 <body>
 <p>
-Everything is an object in ruby and thus visualising everything as an
+Everything is an object in ruby.
+
+Thus visualising everything as an
 object and modeling your problem based on the principles of Object
-Oriented Programming (OOP) becomes very important. During my second week at
+Oriented Programming (OOP) becomes very important.
+During my second week at
 <a href="http://www.codeignition.co">Codeignition</a>, we started with a very simple problem and then extended it
 everyday to understand some OOP principles such as inheritance,
 namespacing and method overriding. Thanks to our mentor, <a href="http://www.sinisterlight.com">Shobhit Srivastava</a>, some software
