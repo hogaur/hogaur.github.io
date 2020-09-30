@@ -10,7 +10,7 @@ description: 'Gojek has a culture of writing user manuals, after much procastina
 
 *Gojek has a culture of writing user manuals, after much procastination finally writing one (shamelessly copied from a friend atm).*
 
-*Sep, 2020 4-minute read*
+*Sep20 5-minute read*
 
 #### Conditions I like to work in
 - I love to chat over breaks. Coffee, Trends, Books get me started.
