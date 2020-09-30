@@ -3,6 +3,7 @@ layout: post
 title:  Getting Started with Clojure
 date:   2020-09-20
 categories:
+phrases: 'clojure getting started beginner guide'
 section: 'Life'
 description: 'The best Clojure Primer you will find on the internet today.'
 ---
