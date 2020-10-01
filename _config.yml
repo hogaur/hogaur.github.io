@@ -1,20 +1,23 @@
 title: Hariom Gaur
+author: hogaur
 email: hogaur@gmail.com
+tagline: A blog dedicated to tech and personality. Only if I automated all that goes in my head...
 description: >-
   My personal blog where I talk about my journey and my experiences.
   I like to share essays about engineering, spirituality and music.
   I also like to read and share hindi poems.
-baseurl: ""
 url: "hariomgaur.in"
-twitter_username: hogaur
-github_username:  hogaur
-google_analytics: 'UA-67482601-1'
-
+baseurl: ""
+theme: minima
 show_excerpts: true
 
-theme: minima
+github_username:  hogaur
+twitter_username: hogaur
+
+google_analytics: 'UA-67482601-1'
+
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 header_pages:
