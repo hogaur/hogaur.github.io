@@ -21,7 +21,7 @@ description: 'Gojek has a culture of writing user manuals, after much procastina
 
 #### The times/Hours I like to work
 
-- I start my day around 9:30 AM IST, and close around 6 AM IST.
+- I start my day around 9:30 AM IST, and close around 6 PM IST.
 - I like *timeboxing* efforts and iterate over small cycles.
 - I am mostly a night owl.
 - I am currently on manager time, so my day is filled with interrupts. Still figuring out how I can get some focused time, with high productivity.
