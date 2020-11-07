@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basics of Clojure App Development
+title: Learning Clojure
 date:   2020-11-06
 categories:
 phrases: 'life gojek tech life@gojektech clojure functionalprogramming recursion'
@@ -13,7 +13,10 @@ description: 'A step-by-step guide to get started with application development i
 
 In the previous blog, we learnt the fundamentals of Clojure programming language. We also got used to the interactive Clojure development using the REPL and performed some basic operations in the REPL. In this blog, we will continue to learn by doing. Coz, says Yoda -
 
-![](yoda-clojure.jpeg)
+<div style="text-align:center">
+<img src="yoda-clojure.jpeg" />
+</div>
+<br>
 
 We will learn how to create a basic Clojure application, and also how to load and execute code written in static source files into the REPL. As promised in part one, loop-recur and first-class function support are also covered in this blog. If you are new to Clojure programming language, I highly recommend for you to go through [Getting Started With Clojure](http://hariomgaur.in/2020/09/20/clojure-getting-started.html) first.
 
@@ -181,7 +184,8 @@ We print the first name in a formatted string `(str "friend of" (first names))` 
 
 ### Epilogue
 
-![](clojure-gloves-on.jpeg)
+<div style="text-align:center"><img src="clojure-gloves-on.jpeg" /></div>
+<br>
 
 That's it for today folks. Hope the content in this post helped you get
 your hands dirty with some Clojure programming. I certainly have got my
@@ -193,6 +197,7 @@ On a day to day basis, I work on improving the [Ziggurat framework](https://gith
 
 ### References
 
+- [Getting Started With Clojure](http://hariomgaur.in/2020/09/20/clojure-getting-started.html)
 - [Leiningen Getting Started](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md)
 - [Clojure Functional Programming](https://clojure.org/about/functional_programming)
 - [Clojure Testing Framework](https://clojuredocs.org/clojure.test)
