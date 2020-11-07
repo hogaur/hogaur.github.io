@@ -6,12 +6,12 @@ categories:
 phrases: 'life gojek tech life@gojektech clojure functionalprogramming recursion'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Clojure, FunctionalProgramming
 section: 'Life'
-description: 'A step-by-step guide to get started with application development in Clojure Programming Language'
+description: 'A step-by-step guide to getting started with application development in Clojure Programming Language.'
 ---
 
-*A step-by-step guide to get started with application development in Clojure Programming Language*
+*A step-by-step guide to getting started with application development in Clojure Programming Language.*
 
-In the previous blog, we learnt the fundamentals of Clojure programming language. We also got used to the interactive Clojure development using the REPL and performed some basic operations in the REPL. In this blog, we will continue to learn by doing. Coz, says Yoda -
+In the previous blog, we learned the fundamentals of Clojure programming language. We also got used to the interactive Clojure development using the REPL and performed some basic operations in the REPL. In this blog, we will continue to learn by doing. Because, says Yoda -
 
 <div style="text-align:center">
 <img src="yoda-clojure.jpeg" />
@@ -20,7 +20,7 @@ In the previous blog, we learnt the fundamentals of Clojure programming language
 
 We will learn how to create a basic Clojure application, and also how to load and execute code written in static source files into the REPL. As promised in part one, loop-recur and first-class function support are also covered in this blog. If you are new to Clojure programming language, I highly recommend for you to go through [Getting Started With Clojure](http://hariomgaur.in/2020/09/20/clojure-getting-started.html) first.
 
- > After a well-received step-by-step tutorial for getting started with Clojure, here is the much-awaited part two that builds up right from where we left in part one.  I wish this content helps folks understand some of the necessary and essential nuances while programming in Clojure programming language.
+ > After a well-received step-by-step tutorial for getting started with Clojure, here is the much-awaited part two that builds up right from where we left in part one.  I hope this content helps folks understand some of the necessary and essential nuances while programming in Clojure programming language.
 
 ### A Brand New App
 
@@ -49,7 +49,7 @@ Few things to note -
 * There are separate directories for `src` and `test` unlike `golang`
 * A very special `project.clj` file.
 
-That's a pretty good folder structure that Leiningen scaffolds for you. Lets understand what are different parts of a typical Clojure app first.
+That's a pretty good folder structure that Leiningen scaffolds for you. Let's understand what are different parts of a typical Clojure app first.
 * The `resources` directory is for assets like `config.edn` etc.
 * The `src` folder is where the Code goes.
 * The `test` folder is where the tests go.
@@ -60,7 +60,7 @@ That's a pretty good folder structure that Leiningen scaffolds for you. Lets und
 
 ### Testing the Waters
 
-Lets add the following piece of code in `core_test.clj` and run `lein test`.
+Let's add the following piece of code in `core_test.clj` and run `lein test`.
 
 ```
 (deftest string-equals-string-test
@@ -160,7 +160,7 @@ One can create a function using `(fn [] ..)` as well. This returns a value that 
 
 ### Looping in Clojure
 
-Lets understand the looping in Clojure with an example,
+Let's understand the looping in Clojure with an example,
 ```
 user=> (def names ["deba" "shukla" "guru" "hari"])
 user=> (loop [x names] 
