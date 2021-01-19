@@ -19,11 +19,11 @@ description: 'Failures are inevitable. Beginning to acknowledge them is the star
 
 ### Failures are inevitable
 
-Over years I have seen that I can't avoid making mistakes. When I am starting with something new, there is always a learning curve. Even after doing something for the nth time, I can still make a mistake. When I fail at something like I miss completing a project before a deadline, I feel horrible about it. In such situations, you can find me nowhere. I am mostly hiding behind a pile of work somewhere, avoiding eye contact because I am ashamed of my failure.
+Over years I have seen that I can't avoid making mistakes. When I am starting with something new, there is always a learning curve. Even after doing something for the n<sup>th</sup> time, I can still make a mistake. When I fail at something like I miss completing a project before a deadline, I feel horrible about it. In such situations, you can find me nowhere. I am mostly hiding behind a pile of work somewhere, avoiding eye contact because I am ashamed of my failure.
 
 You might have also felt like I have in certain situations. They might be personal or work-related. Either way, I think we end up being knee-deep in resentment because we are not prepared to deal with failures. Like we are always told that the world laughs at failures. We usually lack a reliable approach that we can use when we fail. We don't usually have a second plan.
 
-### Dealing with Failures
+### Dealing with Failure
 
 > “Those who dare to fail miserably can achieve greatly.” – John F. Kennedy
 
