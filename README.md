@@ -1,5 +1,7 @@
-hogaur
+[hogaur](hariomgaur.in)
 ---
+
+This project serves the purpose of my digital home.
 
 This is my new jekyll based personal blog. I have picked up a theme from
 internet.
