@@ -11,6 +11,9 @@ description: 'Dependency management for Clojure Applications'
 
 *Dependency management for Clojure Applications*
 
+<div style="text-align:left"><img src="blocks.gif" /></div>
+<br>
+
 In this blog, I want to put across my unbiased opinion about two unique tools from the world of Clojure programming.
 The tools I am talking about are `leiningen` and relatively new `clojure` dev tools.
 
@@ -172,6 +175,7 @@ OpenJDK 64-Bit Server VM 15.0.1+9
  Javadoc: (javadoc java-object-or-class-here)
     Exit: Control+D or (exit) or (quit)
  Results: Stored in vars *1, *2, *3, an exception in *e
+
  ```
 
 results into
