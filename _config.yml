@@ -14,9 +14,6 @@ show_excerpts: true
 github_username:  hogaur
 twitter_username: hogaur
 
-disqus:
-  shortname: hogaur
-
 google_analytics: 'UA-67482601-1'
 
 plugins:

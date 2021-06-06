@@ -7,7 +7,6 @@ phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'What if I told you there was an easy and reliable way to consume messages from Apache Kafka.'
-comment: true
 ---
 
 *What if I told you there was an easy and reliable way to consume messages from Apache Kafka.*
@@ -220,23 +219,3 @@ This example consumer demonstrates the basics of Kafka consumption using Ziggura
 <br>
 
 Thank you so much for reading :heart_eyes_cat:
-
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://hogaur.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
