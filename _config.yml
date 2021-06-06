@@ -19,6 +19,7 @@ google_analytics: 'UA-67482601-1'
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
 
 header_pages:
   - index.markdown
