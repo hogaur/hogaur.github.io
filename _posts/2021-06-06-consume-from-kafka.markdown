@@ -18,7 +18,7 @@ Kafka is an open-source tool that has rapidly gaining industry traction. A lot o
 sourcing. It allows applications to work on their business logic without worrying about their dependencies.
 
 This blog post will go through a brief intro of event sourcing and Kafka. Then we will see how one can consume messages
-from Kafka using Ziggurat. Ziggurat is an event streaming
+from Kafka using Ziggurat. [Ziggurat](https://github.com/gojek/ziggurat) is an open-source event streaming
 application framework. We, at Gojek, widely use Ziggurat to build applications on top of Kafka. Varying from applications in the transport, logistics, and food domain, many of our systems internally communicate to each other with the help of sending events via Kafka and consuming them using Ziggurat-based applications.
 
 We wrote Ziggurat in Clojure. Clojure is a functional programming language. It has got an elegant style. And you can find a getting started with Clojure blog [here](http://hariomgaur.in/2020/09/20/clojure-getting-started.html). It is okay if you are
@@ -219,3 +219,6 @@ This example consumer demonstrates the basics of Kafka consumption using Ziggura
 <br>
 
 Thank you so much for reading :heart_eyes_cat:
+
+Check out the Ziggurat project on its official website,
+[ziggurat.dev](http://ziggurat.dev) :metal:
