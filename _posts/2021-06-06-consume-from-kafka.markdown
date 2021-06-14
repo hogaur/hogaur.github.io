@@ -96,6 +96,8 @@ getting started [guide](https://kafka.apache.org/quickstart).
 
 <div style="text-align:left"><img src="logo-ziggurat.png" /></div>
 
+[Source](https://github.com/gojek/ziggurat)
+
 There are various ways to write to Kafka and read data from Kafka. The
 simplest being the Kafka console producer and consumer. This utility
 ships with Kafka itself, and with this utility, you can exchange data with
