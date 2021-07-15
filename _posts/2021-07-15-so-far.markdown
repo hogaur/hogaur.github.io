@@ -18,7 +18,7 @@ Many engineers and friends have asked me about my journey. This blog post aims t
 
 <br>
 
-I started working with Gojek in November 2015. I was working with CodeIgnition as Software Engineer. And we had started consulting for Gojek, an Indonesian startup that needed help in scaling its tech. After few months, in April 2016, Gojek acquired us. And I started working full-time as a Product Engineer at Gojek.
+I started working with Gojek in November 2015. I was working with CodeIgnition as a Software Engineer. And we had started consulting for Gojek, an Indonesian startup that needed help in scaling its tech. After a few months, in April 2016, Gojek acquired us. And I started working full-time as a Product Engineer at Gojek.
 
 As the first project with Gojek as a consultant, I extracted the Gofood content management system from the Java monolith. Then, we created a backend API that will serve the requests from the consumer app and the management portal to be used by internal users. We wrote the backend API in Ruby on Rails and the portal application using React and Flux architecture. Apart from these, I also got the opportunity to learn and use Hystrix in production. In addition, we also wrote an Elasticsearch library in ruby to wrap calls to the search database and learned about separating the read and write backends in production.
 
