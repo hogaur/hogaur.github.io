@@ -1,0 +1,61 @@
+---
+layout: post
+title: So Far
+date:   2021-07-15
+categories:
+phrases: 'life gojek tech life@gojektech learnings'
+type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
+section: 'Life'
+description: 'My journey as Product Engineer @ Gojek'
+---
+
+*My journey as Product Engineer @ Gojek*
+
+Many engineers and friends have asked me about my journey. This blog post aims to paint the canvas with all of my major projects at Gojek.
+<br>
+
+<div style="text-align:center"><img src="journey.gif" /></div>
+
+<br>
+
+I started working with Gojek in November 2015. I was working with CodeIgnition as Software Engineer. And we had started consulting for Gojek, an Indonesian startup that needed help in scaling its tech. After few months, in April 2016, Gojek acquired us. And I started working full-time as a Product Engineer at Gojek.
+
+As the first project with Gojek as a consultant, I extracted the Gofood content management system from the Java monolith. Then, we created a backend API that will serve the requests from the consumer app and the management portal to be used by internal users. We wrote the backend API in Ruby on Rails and the portal application using React and Flux architecture. Apart from these, I also got the opportunity to learn and use Hystrix in production. In addition, we also wrote an Elasticsearch library in ruby to wrap calls to the search database and learned about separating the read and write backends in production.
+
+I moved to Gopay after this. During the transition from Gofood, I spent some time building an asynchronous request processor. The service will accept requests from the user and run it later with the guarantee to retry it on failure. Furthermore, the user could decide to give a callback to the user who requested it after the success or failure of the submitted request. 
+
+<br>
+
+<div style="text-align:center"><img src="money.gif" /></div>
+
+<br>
+When I moved to Gopay, it was already a mixture of services written in Java, Golang, and Clojure mostly. So in Gopay, I got exposure to writing code in these different programming languages. I worked on integrating Gopay systems with Alfamart, a third-party system. The idea was to allow Gopay users to top up their wallets at Alfamart POS, thus bringing more money into the ecosystem. I also spent some time optimizing KYC Service to better respond by building some database indexes in Postgres for most queried columns. 
+Apart from these, on my first deployment to production in Gopay, I experienced, debugged, and fixed a Goroutine leak in the production environment. I also got to work in Clojure for the first time. Moreover, I got to use Terraform for merchants' and peripheral teams' infrastructural creation. Finally, I worked and leveraged AWS cloud in production as well.
+
+After Gopay, I got an opportunity to work with Team Atlas. It was a star-studded team. This team was to work on long-term strategic projects. And I got to work on fascinating projects while working with this team. I worked on a terraform service to spin up components on demand. We also worked on Uptime management for Gojek Public APIs. We made a service called Helix that would show the uptime of APIs for the first time. It worked on top of kong logs. Another react application. We also worked on application-level sharding for the first time in Gojek. I also leaned here in this team that Adoption is a first-class problem in Product development.
+<br>
+<div style="text-align:center"><img src="atlas.gif" /></div>
+
+<br>
+After Atlas, I moved to a team called Lambda. Lambda team was coming up with an Actor system to make working on top of events easier for developers. The stack comprises of Rails-like framework written in Clojure and a Heroku-like platform written in Ruby. I got an opportunity to soon lead this fantastic team of developers for the first time in my career. 
+
+After leading Lambda for some time, I moved to a team called Terminator. Our goal was to completely migrate away from our existing production network to a new one. Google had declared our network legacy, and we wanted to move to a more tenant-based Shared VPC model for various reasons. 
+
+After Terminator, I moved to Engineering Productivity. I worked on a solution to provide VPN-less SSH access to developers. This project asked me to understand the nitty-gritty of ssh systems. 
+
+Then I came back where I started two years ago; I started working on the Ziggurat team. Ziggurat is a framework to simplify event streaming on top of Kafka. 
+
+Very recently, I started heading end to end event processing ecosystem for Gojek developers. It includes how they produce events to Kafka, how the data is retained and maintained in the Kafka ecosystem and how developers can process it with ease in a real-time or a batching fashion.
+<br>
+<div style="text-align:center"><img src="event.gif" /></div>
+
+<br>
+So, this is it. These projects are what I have been up to for almost close to the last six years. If there is something you would like to ask me about my projects, DM me on Twitter. Also, if you would like me to do a detailed write-up on one of them, please ask me. 
+
+There is always a way.
+
+Carpe Diem.
+<br>
+<div style="text-align:center"><img src="carpediem.gif" /></div>
+
+<br>
