@@ -39,7 +39,7 @@ After Gopay, I got an opportunity to work with Team Atlas. It was a star-studded
 <br>
 After Atlas, I moved to a team called Lambda. Lambda team was coming up with an Actor system to make stream processing on top of events easier for developers. The stack comprises of a Rails-like framework written in Clojure and a Heroku-like platform written in Ruby. Soon, I got an opportunity to lead this fantastic team of developers. This was a career first for me. 
 
-After leading Lambda for some time, I moved to a team called Terminator. Our goal was to completely migrate away from an existing production network to a new one. Google had declared this network legacy, and we wanted to move to a more tenant-based Shared VPC model for various reasons.
+After leading Lambda for some time, I moved to a team called Terminator. Our goal was to completely migrate away from an existing production network to a new one. Google had declared this network legacy, and we wanted to move to a tenant-based Shared VPC model for various reasons.
 
 After Terminator, I moved to Engineering Productivity. I worked on a solution to provide VPN-less SSH access to developers. This project asked me to understand the nitty-gritty of ssh systems. 
 
