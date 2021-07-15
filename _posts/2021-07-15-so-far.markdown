@@ -11,7 +11,7 @@ description: 'My journey as Product Engineer @ Gojek'
 
 *My journey as Product Engineer @ Gojek*
 
-Many engineers and friends have asked me about my journey. This blog post aims to paint the canvas with all of my major projects at Gojek.
+Many engineers and friends have asked me about my journey. This blog post aims to paint the canvas with all of my major strokes at Gojek.
 <br>
 
 <div style="text-align:center"><img src="journey.gif" /></div>
