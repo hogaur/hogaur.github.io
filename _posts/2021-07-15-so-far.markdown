@@ -45,7 +45,7 @@ After Terminator, I moved to Engineering Productivity. I worked on a solution to
 
 Then I came back where I started two years ago; I started working on the Ziggurat team. Ziggurat is a framework to simplify event streaming on top of Kafka. 
 
-Very recently, I started heading end to end event processing ecosystem for Gojek developers. It includes how they produce events to Kafka, how the data is retained and maintained in the Kafka ecosystem and how developers can process it with ease in a real-time or a batching fashion.
+Very recently, I started heading end to end event processing ecosystem for Gojek developers. It includes how they produce events to Kafka, how the data is retained and maintained in the Kafka ecosystem and how developers can process it with ease in real-time or a batching fashion.
 <br>
 <div style="text-align:center"><img src="event.gif" /></div>
 
