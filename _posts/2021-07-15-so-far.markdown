@@ -6,10 +6,10 @@ categories:
 phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'My journey as Product Engineer @ Gojek'
+description: 'My journey as a Product Engineer @ Gojek'
 ---
 
-*My journey as Product Engineer @ Gojek*
+*My journey as a Product Engineer @ Gojek*
 
 Many engineers and friends have asked me about my journey. This blog post aims to paint the canvas with all of my major strokes at Gojek.
 <br>
