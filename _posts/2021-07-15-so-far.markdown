@@ -50,7 +50,7 @@ Very recently, I started heading end to end event processing ecosystem for Gojek
 <div style="text-align:center"><img src="event.gif" /></div>
 
 <br>
-So, this is it. These projects are what I have been up to for almost close to the last six years. If there is something you would like to ask me about my projects, DM me on Twitter. Also, if you would like me to do a detailed write-up on one of them, please ask me. 
+So, this is it. These projects are what I have been up to for almost the last six years. If there is something you would like to ask me about my projects, DM me on Twitter. Also, if you would like me to do a detailed write-up on one of them, please ask me. 
 
 There is always a way.
 
