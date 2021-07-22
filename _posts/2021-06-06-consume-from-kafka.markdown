@@ -161,6 +161,34 @@ Ziggurat uses Kafka streams to get messages from a particular topic or a set of 
 
 Kafka streams use changelog internally to achieve fault tolerance. The `changelog-topic-replication-factor` is an internal configuration. Ziggurat uses it to set how many brokers we want the changelog topic to replicate on the Kafka cluster. In my example, I am using a single Kafka broker as the bootstrap server. Thus, I need to set this to 1 as the default setting of 3 in Ziggurat needs a Kafka cluster of at least three brokers for high availability. 
 
+Along with the config file, let's create a logging configuration file
+`log4j2.xml` in the source directory as well -
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR" name="conszig-config" shutdownHook="disable">
+    <Properties>
+        <Property name="PATTERN">
+            [%-5level] %d [%t] %c:%M: %m%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${PATTERN}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+        <Logger name="conszig" level="debug" additivity="false">
+            <AppenderRef ref="STDOUT"/>
+        </Logger>
+    </Loggers>
+</Configuration>
+
+```
+
 Having understood the configurations, now it is time for us to jump into the code.
 
 Add the following code to the `core.clj` file
