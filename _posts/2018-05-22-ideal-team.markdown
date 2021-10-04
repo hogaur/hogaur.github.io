@@ -8,7 +8,7 @@ description: 'Building a lean, productive, and efficient team is not easy. Here 
 ---
 *Building a lean, productive, and efficient team is not easy. Here are some strategies that work for us.*
 
-<img src="zen.jpeg" width="100%"/>
+![](zen.jpeg)
 
 *As originally published on [Gojek Product+Tech blog](https://blog.gojekengineering.com/the-zen-of-an-ideal-team-27f1a52b8fd2)*
 

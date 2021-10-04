@@ -1,12 +1,14 @@
-title: हरि ओम गौड़ 
+title: Hariom Gaur
 author: hogaur
 email: hogaur@gmail.com
 tagline: A blog dedicated to tech and personality. Only if I automated all that goes in my head...
 description: >-
-  My journey, learnings & experiences about engineering, life, & music.
+  My personal blog where I talk about my journey and my experiences.
+  I like to share essays about engineering, spirituality and music.
+  I also like to read and share hindi poems.
 url: "hariomgaur.in"
 baseurl: ""
-theme: academic-jekyll-theme
+theme: minima
 show_excerpts: true
 
 github_username:  hogaur
@@ -18,7 +20,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  - jquery
 
 header_pages:
   - index.markdown

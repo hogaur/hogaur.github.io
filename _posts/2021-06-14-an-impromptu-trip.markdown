@@ -17,7 +17,7 @@ Such is the matter of exposure. You don't know what you don't know until you are
 
 This tale is about a sweet trip I had to the heart of central India. So, Welcome to Bhopal, the capital of the state of Madhya Pradesh, and the city of lakes.
 
-<div style="text-align:left"><img src="lakecity.jpeg" width="60%"/></div>
+<div style="text-align:left"><img src="lakecity.jpeg" /></div>
 
 <br>
 
@@ -35,7 +35,7 @@ The next day was about the most beautiful experience I've had in a recent time. 
 Amidst all this, I spent the most amazing day at the Jehan Numa Retreat. The most mesmerizing memory from this place has to be the enchanting music. Silently playing through the halls, and gardens, a fusion between jazz and Indian classical. This music had a very zen vibe to it.
 
 
-<div style="text-align:left"><img src="jehannuma.jpeg" width="100%"/></div>
+<div style="text-align:left"><img src="jehannuma.jpeg" /></div>
 
 <br>
 
