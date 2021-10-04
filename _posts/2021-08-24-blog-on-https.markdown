@@ -47,7 +47,9 @@ Using a custom domain, but https not enabled,
 
 <br>
 
-<div style="text-align:center"><img src="disablement.png" /></div>
+<div style="text-align:center">
+<img src="disablement.png" width="100%"/>
+</div>
 
 <br>
 
@@ -57,7 +59,7 @@ Using a custom domain, but https not enabled,
 
 <br>
 
-<div style="text-align:center"><img src="secure-now.png" /></div>
+<div style="text-align:center"><img src="secure-now.png" width="100%" /></div>
 
 <br>
 
@@ -67,6 +69,6 @@ For calling it out. Lets build a culture of mutual guidance.
 
 <br>
 
-<div style="text-align:center"><img src="thanks.png" /></div>
+<div style="text-align:center"><img src="thanks.png" width="100%" /></div>
 
 <br>

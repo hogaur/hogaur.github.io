@@ -4,7 +4,9 @@ layout: default
 title: talks
 ---
 
-# Talks
+<h3 class="fw-bold col-md-12" >Talks</h3>
+<br>
+
 ##### Links from podcasts, meetups or conferences where I've talked
 ##### for my love of discussing ideas :heartpulse:
 ---

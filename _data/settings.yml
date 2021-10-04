@@ -1,0 +1,20 @@
+menu:
+  - url: /
+    name: home
+  - url: /about
+    name: about
+  - url: /showcase
+    name: talks
+  - url: /posts
+    name: posts
+  - url: /poetry
+    name: uvacha
+social:
+  - link: https://github.com/hogaur
+    icon: github
+  - link: https://twitter.com/hogaur
+    icon: twitter
+  - link: https://linkedin.com/in/hogaur
+    icon: linkedin
+  - link: https://instagram.com/hogaur
+    icon: instagram
