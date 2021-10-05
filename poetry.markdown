@@ -1,7 +1,7 @@
 ---
 permalink: /poetry/
 layout: default
-title: hariom uvacha
+title: uvacha
 ---
 
 <style type="text/css" media="screen">
