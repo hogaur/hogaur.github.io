@@ -25,6 +25,7 @@ header_pages:
   - index.markdown
   - about.markdown
   - showcase.markdown
+  - posts.markdown
   - poetry.markdown
 # Exclude from processing.
 # The following items will not be processed, by default.
