@@ -74,5 +74,5 @@ permalink: /about/
   </div>
 </div>
 
-Follow me on [twitter](https://twitter.com/hogaur),
-[instagram](https://instagram.com/hariomuvacha) (or [this one](https://instagram.com/hogaur)), or connect with me on [linkedin](linkedin.com/in/hogaur).
+Connect with me on [twitter](https://twitter.com/hogaur),
+[instagram](https://instagram.com/hariomuvacha) (or [this one](https://instagram.com/hogaur)), or on [linkedin](linkedin.com/in/hogaur).
