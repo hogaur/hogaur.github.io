@@ -4,24 +4,17 @@ title: about
 permalink: /about/
 ---
 
+# Greetings of the day,
+## इस्तेकबाल !
+
 <style type="text/css" media="screen">
   .container {
     display: inline-flex;
-  }
-  div {
-    margin: unset;
-  }
-  h3 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
   }
 </style>
 <div class="container">
   <div class="row g-5 mb-5">
     <div class="col-md-6">
-    <h3 class="fw-bold" style="text-align:left" >Greetings of the day,  इस्तेकबाल !</h3>
       <p style="text-align:left">
         My name is Hari Om Gaur. My friends call me Hari.
       </p>
