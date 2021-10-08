@@ -1,5 +1,5 @@
 title: हरिओम गौड़ 
-author: hogaur
+author: Hari Om Gaur
 email: hogaur@gmail.com
 tagline: A blog dedicated to tech and personality. Only if I automated all that goes in my head...
 description: >-
@@ -9,8 +9,9 @@ baseurl: ""
 theme: minima
 show_excerpts: true
 
-github_username:  hogaur
 twitter_username: hogaur
+linkedin_username: hogaur
+github_username:  hogaur
 
 google_analytics: 'UA-67482601-1'
 
