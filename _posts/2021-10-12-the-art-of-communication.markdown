@@ -11,6 +11,29 @@ description: 'Nuances of communication in the light of the Zen of Python'
 
 *Nuances of communication in the light of the Zen of Python.*
 
+<!-- Twitter cards metadatas -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@hogaur">
+<meta name="twitter:creator" content="@hogaur">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.header-img %}
+  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+{% endif %}
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Context
 
 In software engineering, we work as a team. And communication can be a massive bottleneck to delivery in large groups or distributed teams.
