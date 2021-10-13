@@ -11,28 +11,23 @@ description: 'Nuances of communication in the light of the Zen of Python'
 
 *Nuances of communication in the light of the Zen of Python.*
 
-<!-- Twitter cards metadatas -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@hogaur">
-<meta name="twitter:creator" content="@hogaur">
-{% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}">
-{% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
-{% endif %}
-{% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-{% endif %}
-{% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-{% if page.header-img %}
-  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
-{% endif %}
+---
+<br>
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet"
+  data-text="Read this post on the art of communication"
+  data-url="https://hariomgaur.in/2021/10/12/the-art-of-communication.html"
+  data-hashtags="blog,softwareengineering,communication"
+  data-via="hogaur"
+  data-related="twitterapi,twitter">
+Tweet
+</a>
+<a class="twitter-follow-button"
+  href="https://twitter.com/hogaur">
+Follow @hogaur</a>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Context
 
@@ -94,6 +89,4 @@ In conclusion, remember -
 > The complex is better than the complicated."
 >
 > from **zen of python**
-
-
 
