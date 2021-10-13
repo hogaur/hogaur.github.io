@@ -6,13 +6,13 @@ categories:
 phrases: 'life gojek tech life@gojektech failures learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'Basic nuances of communication in the light of the Zen of Python'
+description: 'Nuances of communication in the light of the Zen of Python'
 ---
 
-*Basic nuances of communication in the light of the Zen of Python*
+*Nuances of communication in the light of the Zen of Python.*
 
-In software engineering, we work as a team. And communication can be a massive bottleneck to delivery in large groups or distributed teams. 
-'Communicate with Purpose' is one of the Gojek values. This particular value has always drawn my attention. However, it comes across as a little cryptic to me at times. I have felt shy in seeking help or asking questions in the past. And more often than not, it takes enormous courage to speak up when something doesn't feel right. 
+In software engineering, we work as a team. And communication can be a massive bottleneck to delivery in large groups or distributed teams.
+'Communicate with Purpose' is one of the Gojek values. This particular value has always drawn my attention. However, it comes across as a little cryptic to me at times. I have felt shy in seeking help or asking questions in the past. And more often than not, it takes enormous courage to speak up when something doesn't feel right.
 
 The phrase 'Communicate with purpose' talks about communication and doing so with purpose. What does that mean? The closest I can get to comprehend this concept is to understand my intention behind any communication. In rather general terms, it demands me to think before I speak and find clarity on a good reason to say something out loud. That is very different from posting anything on Twitter. Why? Because
 
