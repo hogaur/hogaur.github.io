@@ -11,24 +11,6 @@ description: 'Nuances of communication in the light of the Zen of Python'
 
 *Nuances of communication in the light of the Zen of Python.*
 
----
-<br>
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet"
-  data-text="Read this post on the art of communication"
-  data-url="https://hariomgaur.in/2021/10/12/the-art-of-communication.html"
-  data-hashtags="blog,softwareengineering,communication"
-  data-via="hogaur"
-  data-related="twitterapi,twitter">
-Tweet
-</a>
-<a class="twitter-follow-button"
-  href="https://twitter.com/hogaur">
-Follow @hogaur</a>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 ### Context
 
 In software engineering, we work as a team. And communication can be a massive bottleneck to delivery in large groups or distributed teams.

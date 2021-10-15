@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+              {%- if page.author -%}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+              {%- endif -%}</p>
+          </header>
+
+          <div class="post-content e-content" itemprop="articleBody">
+
+            <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet"
+              data-text="Read this post on the art of communication"
+              data-url="https://hariomgaur.in/2021/10/12/the-art-of-communication.html"
+              data-hashtags="blog,softwareengineering,communication"
+              data-via="hogaur"
+              data-related="twitterapi,twitter">
+            Tweet
+            </a>
+            <a class="twitter-follow-button"
+              href="https://twitter.com/hogaur">
+            Follow @hogaur</a>
+
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <br>
+            <br>
+
+            {{ content }}
+
+          </div>
+
+          {%- if site.disqus.shortname -%}
+            {%- include disqus_comments.html -%}
+          {%- endif -%}
+
+          <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        </article>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
