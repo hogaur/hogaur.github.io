@@ -27,9 +27,9 @@
 
             <a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
-              data-text="Read this post on the art of communication"
-              data-url="https://hariomgaur.in/2021/10/12/the-art-of-communication.html"
-              data-hashtags="blog,softwareengineering,communication"
+              data-text="Read this post '{{page.title}}' by Hariom Gaur about {{page.description}} "
+              data-url={{site.url}}{{page.url}}
+              data-hashtags="blog"
               data-via="hogaur"
               data-related="twitterapi,twitter">
             Tweet
