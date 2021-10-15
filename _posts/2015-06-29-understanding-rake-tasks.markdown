@@ -4,9 +4,8 @@ title:  "Rake Tasks"
 date:   2015-06-29
 categories:
 section: 'Code'
-description: 'How to write a custom rake task'
+description: 'Understanding rake tasks and how to write one'
 ---
-*Understanding rake tasks and how to write a custom rake task*
 
 <body>
 <p>

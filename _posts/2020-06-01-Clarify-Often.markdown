@@ -4,9 +4,8 @@ title:  Clarify Often
 date:   2020-06-01
 categories:
 section: 'Life'
-description: 'Repeat that Narrative'
+description: 'Repeating that Narrative'
 ---
-*The one about repeating that Narrative*
 
 <center>
 <div>

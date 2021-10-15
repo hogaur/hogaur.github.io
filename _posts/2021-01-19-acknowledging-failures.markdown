@@ -6,10 +6,8 @@ categories:
 phrases: 'life gojek tech life@gojektech failures learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'Failures are inevitable. Beginning to acknowledge them is the start of something beautiful.'
+description: 'Failures, their inevitability, and acknowledging them'
 ---
-
-*Failures are inevitable. Beginning to acknowledge them is the start of something beautiful.*
 
 <br>
 <div style="text-align:center">

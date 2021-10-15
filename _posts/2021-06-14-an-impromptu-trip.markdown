@@ -6,10 +6,8 @@ categories:
 phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'Wear a mask that covers your nose and mouth at all times, and do not step out of house unless absolutely necessary.'
+description: 'travel to the heart of India'
 ---
-
-*Wear a mask that covers your nose and mouth at all times, and do not step out of house unless absolutely necessary.*
 
 I am from Rajasthan, the northwestern desert state of India. I went to Udaipur during the final year of my college with friends. To a Rajasthani, Udaipur is the only lake city they have heard of. If you tell them that there is a lake city in every part of this country, they will not believe it.
 

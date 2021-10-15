@@ -5,8 +5,8 @@ description: My pics from the first seasaon of the very famous franchise.
 date:   2015-08-18
 section: 'Music'
 categories: Coke Studio, 
+description: "Few select picks from the legendary music franchise"
 ---
-*My pics from the first seasaon of the very famous franchise from the Indian subcontinent.*
 
 Coke Studio season 8 is being aired right now (Read Coke Studio as Coke Studio Pakistan, always!). And here I am listing down my favorites from the first season of the famous
 franchise-

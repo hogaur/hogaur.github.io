@@ -4,11 +4,8 @@ title:  "Ruby Hashes"
 date:   2015-05-28 19:11:11
 categories:
 section: 'Code'
-description: 'Hash as in dictionary like collection of keys-value pairs'
+description: 'A collection of unique keys and their value'
 ---
-*A hash
-is a dictionary like collection of unique keys and their
-values.*
 
 <p>
 Hashes also called Associative arrays, are similar to arrays in the way

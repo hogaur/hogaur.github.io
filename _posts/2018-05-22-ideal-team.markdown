@@ -4,9 +4,8 @@ title: The Zen of an Ideal Team
 date:   2018-05-22
 categories:
 section: 'Life'
-description: 'Building a lean, productive, and efficient team is not easy. Here are some strategies that work for us.'
+description: 'Building a lean, productive, and efficient team building strategies'
 ---
-*Building a lean, productive, and efficient team is not easy. Here are some strategies that work for us.*
 
 ![](zen.jpeg)
 

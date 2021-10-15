@@ -4,9 +4,8 @@ title: An end or a beginning
 date:   2019-12-20
 categories:
 section: 'Life'
-description: 'Will write one at the end of it all'
+description: 'about circular nature of things'
 ---
-*Will write one at the end of it all as well*
 
 2 am
 ---

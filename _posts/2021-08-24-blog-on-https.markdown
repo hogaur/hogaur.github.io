@@ -6,10 +6,8 @@ categories:
 phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'Not having your site on HTTPS in 2021 is not acceptable'
+description: 'Not having your site on HTTPS'
 ---
-
-*Not having your site on HTTPS in 2021 is not acceptable*
 
 #### A low hanging Fruit
 

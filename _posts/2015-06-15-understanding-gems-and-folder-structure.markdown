@@ -4,9 +4,8 @@ title:  "Gems and folder structure for ruby projects"
 date:   2015-06-15
 categories:
 section: 'Code'
-description: 'Some ice-breaking with ruby project structure'
+description: 'ice-breaking with ruby project structure'
 ---
-*Aimed at ice-breaking with ruby project structure*
 
 <body>
 <p>

@@ -43,6 +43,15 @@
             <br>
             <br>
 
+            <hr>
+
+            <br>
+
+            <i>{{page.description}}</i>
+
+            <br>
+            <br>
+
             {{ content }}
 
           </div>

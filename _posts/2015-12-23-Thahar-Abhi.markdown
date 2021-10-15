@@ -6,7 +6,6 @@ categories:
 section: 'Life'
 description: 'बहुत ज्यादा हो, तू क्या तब ही मानेगा'
 ---
-*बहुत ज्यादा हो, तू क्या तब ही मानेगा*
 
 <center>
 <div>

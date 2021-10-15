@@ -8,8 +8,6 @@ section: 'Life'
 description: 'The best Clojure Primer you will find on the internet today.'
 ---
 
-*The best Clojure Primer you will find on the internet today.*
-
 This is a step-by-step tutorial to help you discover Clojure idioms in your terminal at the convenience of your fingertips. This blog post assumes that you have prior experience of writing code in a programming language. While that will help, if you don't have any previous coding experience, you should still follow most of the content with ease.
 
 ### The Clojure Programming Language

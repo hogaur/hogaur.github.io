@@ -9,8 +9,6 @@ section: 'Life'
 description: 'Nuances of communication in the light of the Zen of Python'
 ---
 
-*Nuances of communication in the light of the Zen of Python.*
-
 ### Context
 
 In software engineering, we work as a team. And communication can be a massive bottleneck to delivery in large groups or distributed teams.

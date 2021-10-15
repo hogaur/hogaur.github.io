@@ -4,9 +4,8 @@ title:  तो क्या होता!
 date:   2016-05-16
 categories:
 section: 'Life'
-description: 'The one about What-Ifs'
+description: 'What-Ifs'
 ---
-*The one about What-Ifs*
 
 <center>
 <div>

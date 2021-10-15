@@ -9,8 +9,6 @@ section: 'Life'
 description: 'Dependency management for Clojure Applications'
 ---
 
-*Dependency management for Clojure Applications*
-
 <div style="text-align:left"><img src="blocks.gif" /></div>
 <br>
 

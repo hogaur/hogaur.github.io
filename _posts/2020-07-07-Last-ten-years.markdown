@@ -4,9 +4,8 @@ title:  A decade of my life
 date:   2020-07-07
 categories:
 section: 'Life'
-description: 'Story of me growing up from Seventeen to Twenty Seven.'
+description: 'how life was from Seventeen to Twenty Seven.'
 ---
-*Story of me growing up from Seventeen to Twenty Seven.*
 
 Ten years of one's life is decent enough long span to think about. Interviewees are often asked the question of where do they see themselves in 5 years or ten years. It certainly pushes me to consider for the long term. But here, in this blog, I am going to write about my last ten years. So, this is not a look ahead, but a dive into the past. Don't confuse this with ruminating. This is associated to an activity of compiling the hardest and easiest life lessons I got and to share them with the broader group. This is to encourage self-expression. This is lean towards structural thinking. And this is for achieving my goal of writing a blog.
 

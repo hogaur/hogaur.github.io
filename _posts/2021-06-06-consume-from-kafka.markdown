@@ -6,11 +6,8 @@ categories:
 phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
-description: 'What if I told you there was an easy and reliable way to consume messages from Apache Kafka.'
+description: 'an easy and reliable way to consume messages from Apache Kafka.'
 ---
-
-*What if I told you there was an easy and reliable way to consume messages from Apache Kafka.*
-
 
 <iframe src='https://gfycat.com/ifr/DearThirstyBoutu' frameborder='0' scrolling='no' allowfullscreen width='720' height='412'></iframe><p> <a href="https://gfycat.com/dearthirstyboutu">via Gfycat</a></p>
 
