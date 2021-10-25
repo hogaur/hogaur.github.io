@@ -2,8 +2,10 @@
 layout: default
 ---
 
+<img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" />
+
 <script>
-  var traits = ['technology leader', 'problem solver', 'clojure enthusiast', 'team player', 'product engineer'];
+  var traits = ['problem solver', 'team player', 'product engineer'];
   textSequence(0);
   function textSequence(i) {
     if (traits.length > i) {
@@ -17,13 +19,12 @@ layout: default
  }
 </script>
 
-<p> A passionate <i id="sequence" class="col-md-12">product engineer</i></p>
-<br>
-<img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" height="1%"/>
+<p> A passionate <i id="sequence">product engineer</i></p>
+<hr>
+<hr>
 
 {%- if site.posts.size > 0 -%}
 
-  <br>
   <h2 class="post-list-heading">Posts</h2>
 
   <ul class="post-list">
