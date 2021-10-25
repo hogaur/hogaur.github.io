@@ -31,13 +31,13 @@ And demystify it out in the open.
 ...
 
 <div>
-Go to the public, seek their opinion
+Go to the public, ask their opinion
 <br>
-Seek suggestions, so it soothes
+Seek their input and suggestion,
 <br>
-Not only to the one who knows
+Not to confirm what you think is right
 <br>
-But everyone who reads enriches.
+To learn, unlearn, and clarify often.
 </div>
 ...
 <br>
