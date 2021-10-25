@@ -2,9 +2,6 @@
 layout: default
 ---
 
-
-<h2 class="fw-bold col-md-12" >Hari Om Gaur</h2>
-
 <script>
   var traits = ['technology leader', 'problem solver', 'clojure enthusiast', 'team player', 'product engineer'];
   textSequence(0);
