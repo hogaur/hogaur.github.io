@@ -4,18 +4,12 @@ title: about
 permalink: /about/
 ---
 
-# Greetings of the day,
-## इस्तेकबाल !
-
-<style type="text/css" media="screen">
-  .container {
-    display: inline-flex;
-  }
-</style>
-
-My name is Hari Om Gaur. My friends call me Hari.
+# Greetings of the day, इस्तेकबाल !
+:blush:
 
 <img src="{{ site.github.url }}/assets/img/me.jpeg" alt="Home" width="60%"/>
+
+My name is Hari Om Gaur. My friends call me Hari.
 
 I am a Product Engineer at <a href="http://gojek.io">Gojek Tech</a>. I am based out of Bangalore, Karnataka. I have worked with Indonesia's first Decacorn, the SuperApp - Gojek for six years. Previously, I was a Software Developer at <a href="http://codeignition.co"
 target="_blank">Codeignition</a>. CodeIgnition, a boutique devOps
