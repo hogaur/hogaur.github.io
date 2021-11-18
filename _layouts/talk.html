@@ -1,0 +1,31 @@
+---
+permalink: /showcase/
+layout: default
+title: talks
+---
+
+{{content}}
+
+<div class="home">
+  Or there
+
+  {%- if site.talks.size > 0 -%}
+  Here 
+    <h2 class="post-list-heading">{{ page.list_title | default: "Talks" }}</h2>
+    <ul class="post-list">
+      {%- for talk in site.talks -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ talk.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ talk.url | relative_url }}">
+            {{ talk.title | escape }}
+          </a>
+        </h3>
+        <i>{{talk.description}}</i>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>
