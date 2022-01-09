@@ -13,7 +13,7 @@
   <style type="text/css" media="screen">
   .featured-image {
     width: 100%;
-    height: 200px;
+    height: 320px;
     object-fit: cover;
   }
   </style>
@@ -27,6 +27,8 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
           <header class="post-header">
+            <div style="text-align:left"><img class="featured-image sub" src="../../{{page.image}}" /></div>
+            <br>
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
               <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -36,7 +38,10 @@
               {%- if page.author -%}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
               {%- endif -%}</p>
-          </header>
+            <i>{{page.description}}</i>
+            <br>
+            <br>
+
 
           <div class="post-content e-content" itemprop="articleBody">
 
@@ -52,25 +57,16 @@
             <a class="twitter-follow-button"
               href="https://twitter.com/hogaur">
             Follow @hogaur</a>
+            <br>
 
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
             <br>
-            <br>
-
-            <div style="text-align:left"><img class="featured-image" src="../../{{page.image}}" /></div>
-
-            <br>
-            <br>
 
             <hr>
 
-            <br>
+          </header>
 
-            <i>{{page.description}}</i>
-
-            <br>
-            <br>
 
             {{ content }}
 
