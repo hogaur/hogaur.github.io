@@ -4,12 +4,27 @@ title: about
 permalink: /about/
 ---
 
-# Greetings of the day, इस्तेकबाल !
-:blush:
+<img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
 
-<img src="{{ site.github.url }}/assets/img/me.jpeg" alt="Home" width="60%"/>
+<style type="text/css" media="screen">
+.featured-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.about{
+  height: 750px;
+}
+.crazy {
+  object-fit: none;
+}
+</style>
 
-My name is Hari Om Gaur. My friends call me Hari.
+# इस्तेकबाल !
+##### My name is Hari Om Gaur. My friends call me Hari.
+##### :pray:
+---
+
 
 I am a Product Engineer at <a href="http://gojek.io">Gojek Tech</a>. I am based out of Bangalore, Karnataka. I have worked with Indonesia's first Decacorn, the SuperApp - Gojek for six years. Previously, I was a Software Developer at <a href="http://codeignition.co"
 target="_blank">Codeignition</a>. CodeIgnition, a boutique devOps
@@ -45,3 +60,5 @@ I went on to do B.Tech in CSE from IIT - Jodhpur.
 
 Connect with me on [twitter](https://twitter.com/hogaur),
 [instagram](https://instagram.com/hariomuvacha) (or [this one](https://instagram.com/hogaur)), or on [linkedin](linkedin.com/in/hogaur).
+
+<img class="featured-image about" src="{{ site.github.url }}/assets/img/me.jpeg" alt="About"/>

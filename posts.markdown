@@ -6,6 +6,14 @@ title: posts
 
 <div class="home">
 
+<style type="text/css" media="screen">
+.featured-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+</style>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -18,6 +26,12 @@ title: posts
             {{ post.title | escape }}
           </a>
         </h3>
+
+      <img class="featured-image" src="{{post.image}}" alt="Featured Image" />
+
+        <br>
+        <br>
+
         <i>{{post.description}}</i>
       </li>
       {%- endfor -%}

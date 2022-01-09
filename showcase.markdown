@@ -4,6 +4,19 @@ layout: default
 title: talks
 ---
 
+<img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
+
+<style type="text/css" media="screen">
+.featured-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.crazy {
+  object-fit: none;
+}
+</style>
+
 # Talks
 ##### Links from podcasts, meetups or conferences where I've talked
 ##### for my love of discussing ideas :heartpulse:

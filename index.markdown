@@ -2,31 +2,28 @@
 layout: default
 ---
 
-<img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" />
+<img class="featured-image main" src="{{ site.github.url }}/assets/images/hogaur.jpg" alt="Home" />
+<img class="featured-image sub" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
 
-<script>
-  var traits = ['problem solver', 'team player', 'product engineer'];
-  textSequence(0);
-  function textSequence(i) {
-    if (traits.length > i) {
-      setTimeout(function() {
-        document.getElementById("sequence").innerHTML = traits[i];
-        textSequence(++i);
-      }, 2000);
-    } else if (traits.length == i) {
-       textSequence(0);
-    }
- }
-</script>
+<style type="text/css" media="screen">
+.featured-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.main {
+  height: 400px;
+}
+.sub {
+  height: 220px;
+}
+</style>
 
-<p> A passionate <i id="sequence">product engineer</i></p>
 <hr>
 <hr>
 
 {%- if site.posts.size > 0 -%}
-
   <h2 class="post-list-heading">Posts</h2>
-
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
@@ -37,6 +34,8 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h3>
+
+      <img class="featured-image" src="{{post.image}}" alt="Featured Image" />
       <i>{{post.description}}</i>
     </li>
     {%- endfor -%}
