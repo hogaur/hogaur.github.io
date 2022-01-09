@@ -7,7 +7,7 @@ phrases: 'life gojek tech life@gojektech failures learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'How to choose monitor for my Macbook Pro, a Developer Dilemna'
-image: /assets/images/unsplash-cover-default.jpg
+image: ../assets/images/setup.jpg
 ---
 
 Choosing extended display when it comes to Mac is not easy with respect to its battery life.

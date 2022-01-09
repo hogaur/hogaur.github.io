@@ -51,7 +51,7 @@
             <br>
             <br>
 
-            <div style="text-align:left"><img class="featured-image" src={{page.image}} /></div>
+            <div style="text-align:left"><img class="featured-image" src="../../{{page.image}}" /></div>
 
             <br>
             <br>

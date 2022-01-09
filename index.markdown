@@ -35,7 +35,12 @@ layout: default
         </a>
       </h3>
 
-      <img class="featured-image" src="{{post.image}}" alt="Featured Image" />
+      <a class="post-link" href="{{ post.url | relative_url }}">
+      <img class="featured-image sub" src="{{post.image}}" alt="{{post.title | escape}}" />
+      </a>
+
+        <br>
+
       <i>{{post.description}}</i>
     </li>
     {%- endfor -%}
