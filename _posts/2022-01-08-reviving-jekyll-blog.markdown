@@ -10,7 +10,7 @@ description: 'As a developer, setup your dev env so that you can publish blogs o
 image: ../assets/images/structure.jpg
 ---
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@hogaur" />
 <meta name="twitter:creator" content="@hogaur" />
 <meta property="og:url" content="{{post.url}}" />
