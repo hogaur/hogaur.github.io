@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'Dependency management for Clojure Applications'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <div style="text-align:left"><img src="blocks.gif" /></div>

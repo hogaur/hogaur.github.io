@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'Not having your site on HTTPS'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 #### A low hanging Fruit

@@ -5,6 +5,7 @@ date:   2015-06-29
 categories:
 section: 'Code'
 description: 'Understanding rake tasks and how to write one'
+image: ../assets/images/unsplash-cover-alt.jpg
 ---
 
 <body>

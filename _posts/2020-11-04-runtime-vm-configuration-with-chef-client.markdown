@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech chefclient configurationmanagement'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Chef, ConfirationManagement
 section: 'Life'
 description: 'learning how to configure Chef Nodes on runtime with chef-client json-attributes flag'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 ### Motivation

@@ -5,6 +5,7 @@ date:   2015-12-23
 categories:
 section: 'Life'
 description: 'बहुत ज्यादा हो, तू क्या तब ही मानेगा'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <center>

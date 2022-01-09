@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'an easy and reliable way to consume messages from Apache Kafka.'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <iframe src='https://gfycat.com/ifr/DearThirstyBoutu' frameborder='0' scrolling='no' allowfullscreen width='720' height='412'></iframe><p> <a href="https://gfycat.com/dearthirstyboutu">via Gfycat</a></p>

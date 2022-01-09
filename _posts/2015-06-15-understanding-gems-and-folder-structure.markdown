@@ -5,6 +5,7 @@ date:   2015-06-15
 categories:
 section: 'Code'
 description: 'ice-breaking with ruby project structure'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <body>

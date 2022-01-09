@@ -5,6 +5,7 @@ date:   2016-05-16
 categories:
 section: 'Life'
 description: 'What-Ifs'
+image: ../assets/images/unsplash-cover-alt.jpg
 ---
 
 <center>

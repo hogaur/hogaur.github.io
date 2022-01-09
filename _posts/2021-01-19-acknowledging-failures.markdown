@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech failures learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'Failures, their inevitability, and acknowledging them'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <br>

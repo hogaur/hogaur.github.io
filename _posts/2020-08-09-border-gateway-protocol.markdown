@@ -5,6 +5,7 @@ date:   2020-08-09
 categories:
 section: 'Life'
 description: 'a weekend spent in learning and understanding BGP'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 This blog post is a story of a weekend I spent learning and understanding the [Border Gateway Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol). This not so ancient protocol came out in March 1996, just almost four years after my birth. It is used by

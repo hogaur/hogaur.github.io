@@ -5,6 +5,7 @@ date:   2018-05-22
 categories:
 section: 'Life'
 description: 'Building a lean, productive, and efficient team building strategies'
+image: ../assets/images/unsplash-cover.jpg
 ---
 
 ![](zen.jpeg)

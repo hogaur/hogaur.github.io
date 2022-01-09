@@ -7,6 +7,7 @@ phrases: 'life gojek tech life@gojektech clojure functionalprogramming recursion
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Clojure, FunctionalProgramming
 section: 'Life'
 description: 'getting started with application development in Clojure Programming Language.'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 In the previous blog, we learned the fundamentals of Clojure programming language. We also got used to the interactive Clojure development using the REPL and performed some basic operations in the REPL. In this blog, we will continue to learn by doing. Because, says Yoda -

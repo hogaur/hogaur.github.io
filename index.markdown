@@ -17,13 +17,24 @@ layout: default
 .sub {
   height: 220px;
 }
+.crazy {
+  object-fit: none;
+}
 </style>
 
 <hr>
+
+<br>
+
+<img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
+
+# Posts
+##### Share your insights, feedback; and start a conversation.
+##### for my love of discussing ideas :heartpulse:
+
 <hr>
 
 {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">Posts</h2>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>

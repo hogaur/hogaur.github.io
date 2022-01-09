@@ -5,6 +5,7 @@ date:   2020-06-01
 categories:
 section: 'Life'
 description: 'Repeating that Narrative'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 <center>

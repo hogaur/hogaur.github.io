@@ -4,7 +4,7 @@ layout: default
 title: posts
 ---
 
-<div class="home">
+<img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
 
 <style type="text/css" media="screen">
 .featured-image {
@@ -12,10 +12,19 @@ title: posts
   height: 200px;
   object-fit: cover;
 }
+.crazy {
+  object-fit: none;
+}
 </style>
 
+# Posts
+##### Share your insights, feedback; and start a conversation.
+##### for my love of discussing ideas :heartpulse:
+---
+<div class="home">
+
+
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>

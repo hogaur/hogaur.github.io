@@ -8,6 +8,7 @@ type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, G
 canonical_url: 'https://hariomgaur.in/me/sayhi/'
 section: 'Life'
 description: 'style of working and standard operating procedures'
+image: ../assets/images/unsplash-cover-default.jpg
 ---
 
 *Gojek has a culture of writing user manuals, after much procastination finally writing one (shamelessly copied from a friend atm).*
