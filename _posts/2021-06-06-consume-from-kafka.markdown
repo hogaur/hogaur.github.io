@@ -19,7 +19,7 @@ This blog post will go through a brief intro of event sourcing and Kafka. Then w
 from Kafka using Ziggurat. [Ziggurat](https://github.com/gojek/ziggurat) is an open-source event streaming
 application framework. We, at Gojek, widely use Ziggurat to build applications on top of Kafka. Varying from applications in the transport, logistics, and food domain, many of our systems internally communicate to each other with the help of sending events via Kafka and consuming them using Ziggurat-based applications.
 
-We wrote Ziggurat in Clojure. Clojure is a functional programming language. It has got an elegant style. And you can find a getting started with Clojure blog [here](http://hariomgaur.in/2020/09/20/clojure-getting-started.html). It is okay if you are
+We wrote Ziggurat in Clojure. Clojure is a functional programming language. It has got an elegant style. And you can find a getting started with Clojure blog [here](https://hariomgaur.in/2020/09/20/clojure-getting-started.html). It is okay if you are
 new to Clojure as the language. The idea is to get familiarity
 with basic concepts of event sourcing and to be able to apply our
 learnings. In simple words, you don't need to be a
@@ -61,7 +61,7 @@ cascading failures.
 
 We introduced Kafka to scale Gojek systems as we multiplied in both numbers of users and API calls every week. And every
 week, we would see an outage of a kind. And to solve the problems
-mentioned above. You can read more about how Kafka solved these technical issues at Gojek in Shobhit's [blog](http://sinisterlight.com/post/kafka-solved-culture-problem/).
+mentioned above. You can read more about how Kafka solved these technical issues at Gojek in Shobhit's [blog](https://sinisterlight.com/post/kafka-solved-culture-problem/).
 It helped us solve organizational issues and culture problems as well.
 
 
@@ -249,4 +249,4 @@ This example consumer demonstrates the basics of Kafka consumption using Ziggura
 Thank you so much for reading :heart_eyes_cat:
 
 Check out the Ziggurat project on its official website,
-[ziggurat.dev](http://ziggurat.dev) :metal:
+[ziggurat.dev](https://ziggurat.dev) :metal:

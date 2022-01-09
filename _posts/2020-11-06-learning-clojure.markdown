@@ -17,7 +17,7 @@ In the previous blog, we learned the fundamentals of Clojure programming languag
 </div>
 <br>
 
-We will learn how to create a basic Clojure application, and also how to load and execute code written in static source files into the REPL. As promised in part one, loop-recur and first-class function support are also covered in this blog. If you are new to Clojure programming language, I highly recommend for you to go through [Getting Started With Clojure](http://hariomgaur.in/2020/09/20/clojure-getting-started.html) first.
+We will learn how to create a basic Clojure application, and also how to load and execute code written in static source files into the REPL. As promised in part one, loop-recur and first-class function support are also covered in this blog. If you are new to Clojure programming language, I highly recommend for you to go through [Getting Started With Clojure](https://hariomgaur.in/2020/09/20/clojure-getting-started.html) first.
 
  > After a well-received step-by-step tutorial for getting started with Clojure, here is the much-awaited part two that builds up right from where we left in part one.  I hope this content helps folks understand some of the necessary and essential nuances while programming in Clojure programming language.
 
@@ -196,7 +196,7 @@ On a day to day basis, I work on improving the [Ziggurat framework](https://gith
 
 ### References
 
-- [Getting Started With Clojure](http://hariomgaur.in/2020/09/20/clojure-getting-started.html)
+- [Getting Started With Clojure](https://hariomgaur.in/2020/09/20/clojure-getting-started.html)
 - [Leiningen Getting Started](https://github.com/technomancy/leiningen/blob/stable/doc/TUTORIAL.md)
 - [Clojure Functional Programming](https://clojure.org/about/functional_programming)
 - [Clojure Testing Framework](https://clojuredocs.org/clojure.test)

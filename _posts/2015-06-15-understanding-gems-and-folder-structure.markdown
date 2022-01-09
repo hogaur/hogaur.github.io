@@ -16,9 +16,9 @@ Thus visualising everything as an
 object and modeling your problem based on the principles of Object
 Oriented Programming (OOP) becomes very important.
 During my second week at
-<a href="http://www.codeignition.co">Codeignition</a>, we started with a very simple problem and then extended it
+<a href="https://www.codeignition.co">Codeignition</a>, we started with a very simple problem and then extended it
 everyday to understand some OOP principles such as inheritance,
-namespacing and method overriding. Thanks to our mentor, <a href="http://www.sinisterlight.com">Shobhit Srivastava</a>, some software
+namespacing and method overriding. Thanks to our mentor, <a href="https://www.sinisterlight.com">Shobhit Srivastava</a>, some software
 engineering skills always step in to show us the beauty of this world in
 bright sunlight and this time they were-<br>
 - Test Driven Development, lovingly known as TDD,<br>
@@ -68,7 +68,7 @@ always follow Test Driven Developement(TDD) approach. When our projects
 grow bigger, our code base increases, the specs we had written for each
 small unit of our code are our only friends in debugging. If you are new
 to TDD and don't see any benefit for why you should follow TDD, visit my
-friend Debashish's <a href="http://wallydrag.github.io/test%20driven%20development/tdd/2015/05/26/ruby/">blog</a> here.
+friend Debashish's <a href="https://wallydrag.github.io/test%20driven%20development/tdd/2015/05/26/ruby/">blog</a> here.
 <br>
 So all our specs go in spec folder. We write one spec file for each ruby
 class file as classname_spec.rb in spec folder.
@@ -87,7 +87,7 @@ When we write
 {% highlight ruby %}
 bundle install
 {% endhighlight %}
-Bundler looks up to the source "http://rubygems.org" for the gems we declared. We can
+Bundler looks up to the source "https://rubygems.org" for the gems we declared. We can
 mention multiple sources and bundler will look up in those sources in
 order. Bundler installs specified versions of gems if mentioned and
 latest stable realeases of gems if versions are not specified.

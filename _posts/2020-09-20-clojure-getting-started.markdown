@@ -235,7 +235,7 @@ While I have tried to cover most of the basic concepts, there are a lot of thing
 
 I have intentionally left out a lot of concepts to keep it simple and silly. Ideas like `loop-recur` and Clojure's first class function support are among those that I plan to dedicate a few of my posts to shortly.
 
-I have been writing Clojure code for almost the last three years on and off. And have been working with the team that has written the framework to write event-driven applications at scale, called [Ziggurat](http://github.com/gojek/ziggurat). At Gojek, more than 250 applications run in production that leverage Clojure's and this framework's power to consume and process millions of events every minute to deliver business value.
+I have been writing Clojure code for almost the last three years on and off. And have been working with the team that has written the framework to write event-driven applications at scale, called [Ziggurat](https://github.com/gojek/ziggurat). At Gojek, more than 250 applications run in production that leverage Clojure's and this framework's power to consume and process millions of events every minute to deliver business value.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At Gojek, we have written a framework to write event-driven services at scale in Clojure. Please check it out, try it, raise issues, and shower some love.<a href="https://t.co/GtF2rGVmTG">https://t.co/GtF2rGVmTG</a></p>&mdash; HariOm Gaur (@hogaur) <a href="https://twitter.com/hogaur/status/1302201916512858112?ref_src=twsrc%5Etfw">September 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -246,7 +246,7 @@ To conclude, here's a wish from the author of the language himself.
 > ~ Rich Hickey
 > author of Clojure and CTO Cognitect
 >
-> from [clojure.org](http://www.clojure.org)
+> from [clojure.org](https://www.clojure.org)
 
 ### References
 

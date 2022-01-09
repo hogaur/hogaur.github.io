@@ -92,4 +92,4 @@ image: ../assets/img/home.jpg
 **
 
 #### Big Thanks To
-- [Shobhit's User Manual](http://sinisterlight.com/post/my-user-manual/)
+- [Shobhit's User Manual](https://sinisterlight.com/post/my-user-manual/)

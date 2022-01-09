@@ -18,7 +18,7 @@ The tools I am talking about are `leiningen` and relatively new `clojure` dev to
 
 Please note that I am not talking about Clojure, the language. I am talking about clojure, as in the developer tools.
 
-Clojure is a fantastic functional programming language. In the previous two blog posts, we talked about [the Clojure programming language basics](http://hariomgaur.in/2020/09/20/clojure-getting-started.html) and [how to get started with app development in the Clojure programming language](http://hariomgaur.in/2020/11/06/learning-clojure.html). Thank you, folks, for receiving both the previous blog posts very well.
+Clojure is a fantastic functional programming language. In the previous two blog posts, we talked about [the Clojure programming language basics](https://hariomgaur.in/2020/09/20/clojure-getting-started.html) and [how to get started with app development in the Clojure programming language](https://hariomgaur.in/2020/11/06/learning-clojure.html). Thank you, folks, for receiving both the previous blog posts very well.
 
 This blog post will cover an essential topic for application development in any programming language - dependency management. And some examples covering the same for Clojure.
 
