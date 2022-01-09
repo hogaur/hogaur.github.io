@@ -16,6 +16,10 @@
     height: 320px;
     object-fit: cover;
   }
+  .crazy {
+    object-fit: none;
+    height: 200px;
+  }
   </style>
 
   <body>
@@ -27,7 +31,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
           <header class="post-header">
-            <div style="text-align:left"><img class="featured-image sub" src="../../{{page.image}}" /></div>
+            <div style="text-align:left"><img class="featured-image crazy" src="../../{{page.image}}" /></div>
             <br>
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
