@@ -5,7 +5,7 @@ date:   2020-05-04
 categories:
 section: 'Life'
 description: 'Lessons from the book - Radical Candor'
-image: ../assets/images/unsplash-cover-default.jpg
+image: ../assets/images/stars.jpg
 ---
 
 4 am

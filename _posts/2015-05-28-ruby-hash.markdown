@@ -5,7 +5,7 @@ date:   2015-05-28 19:11:11
 categories:
 section: 'Code'
 description: 'A collection of unique keys and their value'
-image: ../assets/images/unsplash-cover.jpg
+image: ../assets/images/practice.jpg
 ---
 
 <p>

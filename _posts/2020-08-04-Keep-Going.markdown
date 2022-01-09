@@ -5,7 +5,7 @@ date:   2020-08-04
 categories:
 section: 'Life'
 description: 'keep going'
-image: ../assets/images/unsplash-cover-default.jpg
+image: ../assets/img/home.jpg
 ---
 
 <center>

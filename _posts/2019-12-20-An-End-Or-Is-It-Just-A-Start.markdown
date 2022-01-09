@@ -5,7 +5,7 @@ date:   2019-12-20
 categories:
 section: 'Life'
 description: 'about circular nature of things'
-image: ../assets/images/unsplash-cover-alt.jpg
+image: ../assets/images/practice.jpg
 ---
 
 2 am
