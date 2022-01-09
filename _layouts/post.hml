@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+
+  <meta property="og:type" content="summary_large_iamge">
+  <meta property="og:title" content={{page.title}} />
+  <meta property="og:description" content={{page.description}} />
+  <meta property="og:image" content={{site.url}}/{{page.image}} />
+  <meta property="og:image:alt" content={{page.description}} />
+  <meta name="twitter:image" content="https://hariomgaur.in/assets/images/structure.jpg">
   {%- include head.html -%}
 
   <style type="text/css" media="screen">

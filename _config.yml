@@ -4,7 +4,7 @@ email: hogaur@gmail.com
 tagline: A blog dedicated to tech and personality. Only if I automated all that goes in my head...
 description: >-
   My journey, learnings & experiences about software engineering, life & music.
-url: "hariomgaur.in"
+url: "https://hariomgaur.in"
 baseurl: ""
 theme: minima
 show_excerpts: true
