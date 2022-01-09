@@ -5,7 +5,7 @@ date:   2020-06-01
 categories:
 section: 'Life'
 description: 'Repeating that Narrative'
-image: ../assets/img/home.jpg
+image: ../assets/images/maykashi.png
 ---
 
 <center>

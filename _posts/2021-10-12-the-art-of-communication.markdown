@@ -7,7 +7,7 @@ phrases: 'life gojek tech life@gojektech failures learnings'
 type: BlogPosting, NewsArticle, Person, Organization, Hackathon, Brand, Atlas, Guide, Failures, Learnings
 section: 'Life'
 description: 'Nuances of communication in the light of the Zen of Python'
-image: ../assets/images/unsplash-cover.jpg
+image: ../assets/images/cover-default.jpg
 ---
 
 ### Context

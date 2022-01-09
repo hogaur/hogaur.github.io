@@ -3,7 +3,6 @@ layout: default
 ---
 
 <img class="featured-image main" src="{{ site.github.url }}/assets/images/hogaur.jpg" alt="Home" />
-<img class="featured-image sub" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
 
 <style type="text/css" media="screen">
 .featured-image {

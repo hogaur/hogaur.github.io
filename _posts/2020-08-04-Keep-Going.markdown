@@ -5,7 +5,7 @@ date:   2020-08-04
 categories:
 section: 'Life'
 description: 'keep going'
-image: ../assets/img/home.jpg
+image: ../assets/images/maykashi.png
 ---
 
 <center>
