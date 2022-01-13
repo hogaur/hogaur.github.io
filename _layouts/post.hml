@@ -7,7 +7,7 @@
   <meta property="og:article:tag" content={{page.categories}}>
   <meta property="og:title" content="{{ page.title | escape }}" />
   <meta property="og:description" content="{{page.description | escape}}" />
-  <meta property="og:image" content="{{site.url}}/{{page.image}}" />
+  <meta property="og:image" content="{{page.image | absolute_url }}" />
   <meta property="og:image:alt" content="{{page.description | escape}}" />
   <meta property="og:url" content="{{site.url}}{{page.url}}">
   <meta content="Hari Om Gaur's Blog" property="og:site_name">
