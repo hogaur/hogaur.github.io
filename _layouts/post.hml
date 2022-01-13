@@ -12,6 +12,7 @@
   <meta property="og:url" content="{{site.url}}{{page.url}}">
   <meta content="Hari Om Gaur's Blog" property="og:site_name">
   <meta name="twitter:image" content="https://hariomgaur.in/assets/images/structure.jpg">
+  <meta name="robots" content="index" />
   {%- include head.html -%}
 
   <style type="text/css" media="screen">
