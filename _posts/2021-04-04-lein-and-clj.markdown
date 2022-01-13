@@ -92,7 +92,7 @@ is merely about changing the version defined in the `project.clj` file.
 
 If we want to add other dependencies, we can add them next to the
 Clojure dependency in the
-same vector. Say, we wanted to use [Ziggurat](github.com/gojek/ziggurat) in our next project to
+same vector. Say, we wanted to use [Ziggurat](https://github.com/gojek/ziggurat) in our next project to
 process kafka streams in production reliably, we can do that
 by just adding this to the `:dependencies` vector -
 

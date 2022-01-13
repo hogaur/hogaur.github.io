@@ -50,7 +50,7 @@ In nothingness God was there, if naught he would persist
 Existence has sunk me, what loss, if I didn't exist
 <br>
 ~ Ghalib
-(Translation courtesy - <a href="rekhta.org" target="_blank">Rekhta.org</a>)
+(Translation courtesy - <a href="https://rekhta.org" target="_blank">Rekhta.org</a>)
 
 I :heart: ideas. Let's discuss more often.
 
@@ -59,6 +59,6 @@ H.S.R. Vidyaniketan. I visited Rashtra Sahayak Vidyalaya for Secondary education
 I went on to do B.Tech in CSE from IIT - Jodhpur.
 
 Connect with me on [twitter](https://twitter.com/hogaur),
-[instagram](https://instagram.com/hariomuvacha) (or [this one](https://instagram.com/hogaur)), or on [linkedin](linkedin.com/in/hogaur).
+[instagram](https://instagram.com/hariomuvacha) (or [this one](https://instagram.com/hogaur)), or on [linkedin](https://linkedin.com/in/hogaur).
 
 <img class="featured-image about" src="{{ site.github.url }}/assets/img/me.jpeg" alt="About"/>

@@ -38,7 +38,7 @@ In this specially Desi episode of defn podcast, Kartik, and I share
 our journey into Clojureverse with the hosts. We talk about the role
 that Ziggurat framework has played at Gojek for Clojure adoption.
 
-> defn has turned Desi with 2 Indian Clojurists! Kartik and HariOm join us to talk about Indian food and spiced up our discussion with Clojure and [Ziggurat](github.com/gojek/ziggurat) and more!
+> defn has turned Desi with 2 Indian Clojurists! Kartik and HariOm join us to talk about Indian food and spiced up our discussion with Clojure and [Ziggurat](https://github.com/gojek/ziggurat) and more!
 
 <iframe width="75%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1125663364&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/defn-771544745" title="defn" target="_blank" style="color: #cccccc; text-decoration: none;">defn</a> · <a href="https://soundcloud.com/defn-771544745/76-the-desi-episode-with-kartik-gupta-and-hariom-gaur" title="#76 - The Desi Episode with Kartik Gupta and HariOm Gaur" target="_blank" style="color: #cccccc; text-decoration: none;">#76 - The Desi Episode with Kartik Gupta and HariOm Gaur</a></div>
 
