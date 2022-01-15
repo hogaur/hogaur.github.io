@@ -2,6 +2,7 @@
 permalink: /poetry/
 layout: default
 title: uvacha
+description: "Crossfeed from my Istagram poetry page."
 ---
 
 <img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />

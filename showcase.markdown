@@ -2,6 +2,7 @@
 permalink: /showcase/
 layout: default
 title: talks
+description: "Links of podcasts, meetups, and conferences"
 ---
 
 <img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />

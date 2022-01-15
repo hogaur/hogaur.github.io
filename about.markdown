@@ -2,6 +2,8 @@
 layout: default
 title: about
 permalink: /about/
+description: "Meet Hari Om Gaur, a software engineer from In working in
+tech since 2015"
 ---
 
 <img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
