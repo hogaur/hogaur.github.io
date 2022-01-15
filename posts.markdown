@@ -2,6 +2,9 @@
 permalink: /posts/
 layout: default
 title: posts
+description: "Home for my experiences and insights from my career as a
+software engineer starting from 2015. Lets learn from each other's
+mistakes and build together a culture of mutual guidance."
 ---
 
 <img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />

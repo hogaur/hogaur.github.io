@@ -1,5 +1,8 @@
 ---
 layout: default
+description: "This website is dedicated to my journey, learnings, and
+experiences about software engineering, life, and music. It focuses on
+tools, and technologies as much as it does on my life and insights."
 ---
 
 <img class="featured-image main" src="{{ site.github.url }}/assets/images/hogaur.jpg" alt="Home" />
