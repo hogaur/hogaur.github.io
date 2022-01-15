@@ -11,8 +11,14 @@
   <meta property="og:image:alt" content="{{page.description | escape}}" />
   <meta property="og:url" content="{{site.url}}{{page.url}}">
   <meta content="Hari Om Gaur's Blog" property="og:site_name">
-  <meta name="twitter:image" content="https://hariomgaur.in/assets/images/structure.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@hogaur">
+  <meta name="twitter:creator" content="@hogaur">
+  <meta name="twitter:title" content="{{ page.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
   <meta name="robots" content="index" />
+
   {%- include head.html -%}
 
   <style type="text/css" media="screen">
