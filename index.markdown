@@ -37,6 +37,7 @@ tools, and technologies as much as it does on my life and insights."
 <hr>
 
 {%- if site.posts.size > 0 -%}
+  <br>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>
@@ -48,12 +49,6 @@ tools, and technologies as much as it does on my life and insights."
           {{ post.title | escape }}
         </a>
       </h3>
-
-      <a class="post-link" href="{{ post.url | relative_url }}">
-      <img class="featured-image sub" src="{{post.image}}" alt="{{post.title | escape}}" />
-      </a>
-
-      <br>
 
       <i>{{post.description}}</i>
 
