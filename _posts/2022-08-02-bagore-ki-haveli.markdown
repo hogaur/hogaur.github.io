@@ -18,7 +18,7 @@ The scenic view of Lake Pichola sets me up in a good mood. Gentle clouds with a 
 :-------------------------:|:-------------------------:
 ![](jheel.jpeg)  |  ![](cafe.jpeg)
 
-I am working from Udaipur, a lake city in Rajasthan, India.
+I am working from Udaipur, a lake city in Rajasthan, India. Working at <a href="https://kumu.live">Kumu</a> allows me to work remotely. 
 
 ![](pichola.jpeg)
 
