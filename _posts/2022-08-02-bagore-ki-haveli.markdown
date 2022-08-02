@@ -7,7 +7,7 @@ phrases: 'life kumu tech life@kumu learnings experiences'
 type: BlogPosting, Person, Organization, Hackathon, Brand, Guide
 section: 'Life'
 description: 'An improptu work from Udaipur trip'
-image: ../assets/images/setup.jpg
+image: 08/02/pichola.jpeg
 ---
 
 <a href="https://www.google.com/search?q=bagore+ki+haveli&tbm=isch&ved=2ahUKEwjhvNv8kaj5AhWhLrcAHbIzA-AQ2-cCegQIABAA&oq=bagore+ki+haveli&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAeEAcyBAgAEBgyBAgAEBgyBAgAEBhQAFgAYIQEaABwAHgAgAHBAYgBwQGSAQMwLjGYAQCqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=PRbpYqGqCqHd3LUPsueMgA4&bih=808&biw=1512&rlz=1C5CHFA_enIN990IN990&hl=en">Bagore Ki Haveli</a> is an Indian mansion on the waterfront of Lake Pichola, Udaipur
