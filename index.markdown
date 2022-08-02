@@ -5,8 +5,6 @@ experiences about software engineering, life, and music. It focuses on
 tools, and technologies as much as it does on my life and insights."
 ---
 
-<img class="featured-image main" src="{{ site.github.url }}/assets/images/hogaur.jpg" alt="Home" />
-
 <style type="text/css" media="screen">
 .featured-image {
   width: 100%;
@@ -24,14 +22,10 @@ tools, and technologies as much as it does on my life and insights."
 }
 </style>
 
-<hr>
-
-<br>
-
 <img class="featured-image crazy" src="{{ site.github.url }}/assets/images/maykashi.png" alt="Home" />
 
 # Posts
-##### Share your insights, feedback; and start a conversation.
+##### Sharing my experiences, learnings; starting a conversation.
 ##### for my love of discussing ideas :heartpulse:
 
 <hr>
