@@ -6,7 +6,7 @@ categories:
 phrases: 'life kumu tech life@kumu learnings experiences'
 type: BlogPosting, Person, Organization, Hackathon, Brand, Guide
 section: 'Life'
-description: 'An improptu work from Udaipur trip'
+description: 'An impromptu workation in Udaipur'
 image: 08/02/pichola.jpeg
 ---
 
