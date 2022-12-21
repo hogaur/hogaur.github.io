@@ -7,7 +7,7 @@ phrases: 'life kumu tech life@kumu learnings experiences'
 type: BlogPosting, Person, Organization, Hackathon, Brand, Guide
 section: 'Life'
 description: 'Part 2: An impromptu workation in Udaipur'
-image: 08/02/pichola.jpeg
+image: 12/21/viewfromcafe.jpeg
 ---
 
 Here's the <a href="https://hariomgaur.in/2022/08/02/bagore-ki-haveli.html">Link</a> to Part 1.
@@ -122,11 +122,6 @@ course, some part of it is original, of course.
 ![](chatgpt.png)
 
 If you want to cafe hop in Udaipur, go to Gangour Ghat Marg. I spent most of my time here at Savage Garden.
-
-Before we part ways, here's the cast for Pitchers Season 2 that is
-releasing on 23rd Dec 2023. 
-
-![](pitchers-s2.png)
 
 Keep it charged :thumbsup:
 
