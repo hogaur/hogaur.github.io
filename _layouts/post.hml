@@ -18,6 +18,7 @@
   <meta name="twitter:description" content="{{ page.description | escape }}">
   <meta name="twitter:image" content="{{ page.image | absolute_url }}">
   <meta name="robots" content="index" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2605483079455407" crossorigin="anonymous"></script>
 
   {%- include head.html -%}
 
